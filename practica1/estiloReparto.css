@@ -74,21 +74,22 @@ th, td{
 }
 
 
-
+/*(0,0,1) */
 nav{
   overflow: hidden;
   margin-bottom: 10px;
   background-color: darkkhaki;
+  color: black;
 }
 
 
-
+/*(0,1,2) */
  nav a:hover{
  text-align: center;
 }
 
 
-
+/*(0,0,1) */
 header{
   font: 400 15px Tahoma,sans-serif; /*Familia sans-serif*/
 }

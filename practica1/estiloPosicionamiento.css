@@ -4,6 +4,7 @@ div{
   position: relative;
   }
 
+  /*(0,0,2) */
   nav a{
     float:left;
     display:block;
@@ -55,7 +56,6 @@ div{
   position: relative;
   max-height: 300px;
   width: 400px;
-  float: center;
   display: block;
   margin:auto;
 }
@@ -66,8 +66,6 @@ video{
   max-height: 300px;
   max-width: 300px;
   position: relative;
-  float:center;
   margin:auto;
-  display: block;
   
 }

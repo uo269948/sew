@@ -6,6 +6,7 @@ body {
   background-color:  darkolivegreen;
 }
 
+/*(0,0,1) */
 h1 {
   background-color:black; 
   color: white;
@@ -98,14 +99,14 @@ tr:nth-child(even) {
   color: inherit;
 }
 
-/*(0,0,2) */
+/*(0,0,1) */
 table{
   border-collapse: collapse;
   width: 100%;
 }
 
 
-
+/*(0,0,1) */
 nav{
   overflow: hidden;
   margin-bottom: 10px;
@@ -116,16 +117,15 @@ nav{
 }
 
 
-
+/*(0,1,2) */
  nav a:hover{
  text-align: center;
 }
 
+/*(0,0,1) */
 article{
   font: 400 15px Tahoma,sans-serif; /*Familia sans-serif*/
   line-height: 1.8;
-  color: black;
-  background-color:  lightgray;
 }
 
 
