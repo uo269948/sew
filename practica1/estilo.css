@@ -3,12 +3,12 @@ body {
       font: 400 15px Tahoma,sans-serif; /*Familia sans-serif*/
       line-height: 1.8;
       color: black;
-      background-color:  rgb(49, 73, 3);
+      background-color:  darkolivegreen;
   }
 
 /*(0,0,1) */
   h1 {
-      background-color:#042402; 
+      background-color:black; 
       color: lightgray;
       text-transform: uppercase;
       padding: 20px 20px;
@@ -33,7 +33,7 @@ h2{
   /*(1,0,0) */
 #h2Equipo{
   color:lightgray;
-  background-color:  rgb(49, 73, 3);
+  background-color:  darkolivegreen;
   text-align: center;
   padding: 5px 5px;
 }
@@ -102,7 +102,7 @@ tr:nth-child(even) {
 
  /*(0,0,1) */
 nav{
-  background-color:#042402;
+  background-color:black;
   color: inherit;  
 }
 
@@ -117,7 +117,7 @@ nav li{
   display:inline-block;
   background-color:darkkhaki;
   padding:4px 15px;
-  border:1px solid #000;
+  border:1px solid black;
   text-align:center;
   color: black;
   width: 13%;  

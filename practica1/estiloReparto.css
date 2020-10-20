@@ -2,13 +2,13 @@
 body {
   font: 400 15px Tahoma,sans-serif; /*Familia sans-serif*/
   line-height: 1.8;
-  color: #0c0c0c;
+  color: black;
   background-color:  rgb(49, 73, 3);
 }
 
 /*(0,0,1) */
 h1 {
-  background-color:#042402; 
+  background-color:black; 
   color: lightgray;
   text-transform: uppercase;
   padding: 20px 20px;
@@ -17,7 +17,7 @@ h1 {
 
 /*(0,0,1) */
 footer{
-color:rgb(0, 0, 0);
+color:black;
 background-color:lightgray;
 text-align: right;
 }
@@ -76,7 +76,7 @@ a:visited{
 
 /*(0,0,1) */
 nav{
-  background-color:#042402;
+  background-color:black;
   color: inherit;
 }
 
