@@ -11,16 +11,6 @@ div{
   position: relative;
   }
 
-  /*(0,0,2) */
-nav a{
-  text-transform: uppercase;
-  background-color:inherit;
-  color:inherit;
-  font-size:14px;
-  text-align:center; 
-  display: block;   
-  float: left;
-}
 
 
 
