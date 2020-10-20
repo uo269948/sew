@@ -11,7 +11,21 @@ div{
   position: relative;
   }
 
-
+  nav a{
+    float:left;
+    display:block;
+    text-transform: uppercase;
+    text-align:center; 
+    background-color:inherit;
+   color:inherit;
+   padding: 14px 16px;
+  }
+  nav ul{
+    float: center;
+    margin:0;
+    padding:0;
+    display: flex;
+  }
 
 
 /*(1,0,0) */

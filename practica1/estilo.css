@@ -102,23 +102,22 @@ nav{
   margin-bottom: 10px;
 }
 
-nav a{
-  float:left;
-  display:block;
-  text-transform: uppercase;
-  text-align:center; 
-  background-color:inherit;
- color:inherit;
- font-size:14px;
- padding: 14px 16px;
 
-}
-nav a:hover{
+
+ nav a:hover{
  text-align: center;
 }
 
 
 
+nav li{
+  background-color:darkkhaki;
+  border:1px solid black;
+  text-align:center;
+  display:inline-block;
+  color: black;
+  width: 20%;
+}
   
 
   
