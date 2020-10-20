@@ -2,14 +2,14 @@
 body {
       font: 400 15px Tahoma,sans-serif; /*Familia sans-serif*/
       line-height: 1.8;
-      color: #0c0c0c;
+      color: black;
       background-color:  rgb(49, 73, 3);
   }
 
 /*(0,0,1) */
   h1 {
       background-color:#042402; 
-      color: rgb(223, 207, 207);
+      color: lightgray;
       text-transform: uppercase;
       padding: 20px 20px;
       text-align: center;     
@@ -17,7 +17,7 @@ body {
 
 /*(0,0,1) */
 footer{
-    color:rgb(0, 0, 0);
+    color:black;
     background-color:lightgray;
     text-align: right;
   }
@@ -62,7 +62,7 @@ article{
 
 /*(1,0,0) */
 #equipo{
-  color: #0c0c0c;
+  color: black;
   overflow: hidden;
   padding: 5px;
   background-color: lightgrey;
@@ -78,13 +78,13 @@ article{
 
 /*(0,0,1) */
 td, th {
-  border: 1px solid #dddddd;
+  border: 1px solid lightgray;
   text-align: left;
   padding: 8px;
 }
 
 #peliTh{
-  border: 1px solid #dddddd;
+  border: 1px solid lightgray;
   text-align: left;
   padding: 8px;
   color: lightgray;
@@ -92,7 +92,7 @@ td, th {
 }
 /*(0,1,2) */
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: lightgray;
   color: inherit;
 }
 

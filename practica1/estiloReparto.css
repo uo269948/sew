@@ -9,7 +9,7 @@ body {
 /*(0,0,1) */
 h1 {
   background-color:#042402; 
-  color: rgb(223, 207, 207);
+  color: lightgray;
   text-transform: uppercase;
   padding: 20px 20px;
   text-align: center;     
@@ -18,14 +18,14 @@ h1 {
 /*(0,0,1) */
 footer{
 color:rgb(0, 0, 0);
-background-color:rgb(221, 217, 217);
+background-color:lightgray;
 text-align: right;
 }
 
 /*(0,0,1) */
 h2{
 color: black;
-background-color:rgb(221, 217, 217);
+background-color:lightgray;
 padding: 15px 15px;
 text-align: center; 
 }
@@ -33,7 +33,7 @@ text-align: center;
 /*(0,0,1) */
 h3{
 color:black;
-background-color:rgb(221, 217, 217);
+background-color:lightgray;
 text-align: center;
 }
 
@@ -57,7 +57,7 @@ background-color:lightgray;
 table {
   background-color: lightgray;
   border-collapse: collapse;
-  color: #000;
+  color: black;
 }
 
 /*(0,0,1) */
@@ -91,7 +91,7 @@ nav li{
   display:inline-block;
   background-color:darkkhaki;
   padding:4px 15px;
-  border:1px solid #000;
+  border:1px solid black;
   text-align:center;
   color: black;
   width: 13%;  
