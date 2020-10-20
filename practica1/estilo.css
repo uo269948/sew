@@ -1,11 +1,16 @@
 /*(0,0,1) */
 body {
-      font: 400 20px Tahoma,sans-serif; /*Familia sans-serif*/
-      line-height: 1.8;
-      color: black;
-      background-color:  darkolivegreen;
-  }
-
+  font: 400 25px Tahoma,sans-serif; /*Familia sans-serif*/
+  line-height: 1.8;
+  color: black;
+  background-color:  darkolivegreen;
+}
+#index{
+  font: 400 15px Tahoma,sans-serif; /*Familia sans-serif*/
+  line-height: 1.8;
+  color: black;
+  background-color:  darkolivegreen;
+}
 /*(0,0,1) */
   h1 {
       background-color:black; 

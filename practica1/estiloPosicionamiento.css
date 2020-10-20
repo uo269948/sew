@@ -59,7 +59,7 @@ div{
 #imagenPeliculas{
   position: relative;
   max-height: 300px;
-  max-width: 600px;
+  width: 400px;
   float: center;
   display: block;
   margin:auto;
