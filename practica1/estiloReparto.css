@@ -68,11 +68,11 @@ th, td{
 }
 
 
-/*(0,1,1) */
+/* (0,1,1)
 a:visited{
   color: black;
   background-color: inherit;
-}
+} */
 
 /*(0,0,1) */
 nav{
