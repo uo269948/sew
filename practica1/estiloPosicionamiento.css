@@ -19,12 +19,9 @@ div{
     background-color:inherit;
    color:inherit;
    padding: 14px 16px;
+   text-decoration: none;
   }
-  nav ul{
-    margin:0;
-    padding:0;
-    display: flex;
-  }
+ 
 
 
 /*(1,0,0) */
