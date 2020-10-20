@@ -28,8 +28,6 @@ nav a{
   position: relative;
   float: right;
   width: 50%;
-  min-width: 100px;
-  min-height: 100px;
   max-height: 300px;
 }
 
@@ -68,8 +66,19 @@ nav a{
   position: relative;
   max-height: 300px;
   max-width: 900px;
+  float: center;
   display: block;
   margin:auto;
 }
 
+/*(0,0,1) */
+video{
+  max-height: 300px;
+  max-width: 600px;
+  position: relative;
+  float:center;
+  margin:auto;
+  display: block;
+  
+}
 
