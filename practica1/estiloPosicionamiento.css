@@ -1,0 +1,75 @@
+/*(0,0,1) */
+aside{
+  box-sizing:border-box;
+  width: 400px;
+  height: 200px;
+  float: right;
+  }
+
+/*(0,0,1) */
+div{
+  position: relative;
+  }
+
+  /*(0,0,2) */
+nav a{
+  text-transform: uppercase;
+  background-color:inherit;
+  color:inherit;
+  font-size:14px;
+  text-align:center; 
+  display: block;
+  float: left;    
+}
+
+
+/*(1,0,0) */
+#imagenReparto{
+  position: relative;
+  float: right;
+  width: 50%;
+  min-width: 100px;
+  min-height: 100px;
+  max-height: 300px;
+}
+
+/*(1,0,0) */
+#imagen3{
+  position: relative;
+  float: right;
+  width: 30%;
+  max-height: 200px;
+  max-width: 250px;
+  
+}
+
+/*(1,0,0) */
+#imagen4{
+  position: relative;
+  float: left;
+  width: 30%;
+  margin-right: 10px;
+  max-height: 130px;
+  max-width: 200px;
+  
+}
+    
+/*(1,0,0) */
+#imagen5{
+  position: relative;
+  float: right;
+  width: 30%;
+  max-height: 200px;
+  max-width: 250px;
+}
+           
+/*(1,0,0) */
+#imagenPeliculas{
+  position: relative;
+  max-height: 300px;
+  max-width: 900px;
+  display: block;
+  margin:auto;
+}
+
+
