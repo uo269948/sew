@@ -47,7 +47,7 @@ margin-bottom: 1%;
 /*(0,0,1) */
 article{
 color:black;
-background-color:rgb(221, 217, 217);
+background-color:lightgray;
 }
 
 
@@ -55,7 +55,7 @@ background-color:rgb(221, 217, 217);
 
 /*(0,0,1) */
 table {
-  background-color: rgb(221, 217, 217);;
+  background-color: lightgray;
   border-collapse: collapse;
   color: #000;
 }
