@@ -25,6 +25,7 @@ div{
   width: 30%;
   max-height: 200px;
   max-width: 250px;
+  margin-left: 10px;
   
 }
 
@@ -46,6 +47,7 @@ div{
   width: 30%;
   max-height: 200px;
   max-width: 250px;
+  margin-left: 10px;
 }
            
 /*(1,0,0) */
