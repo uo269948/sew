@@ -21,7 +21,6 @@ div{
    padding: 14px 16px;
   }
   nav ul{
-    float: center;
     margin:0;
     padding:0;
     display: flex;
