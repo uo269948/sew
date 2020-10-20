@@ -87,10 +87,19 @@ article{
 }
 
 /*(0,0,1) */
-td, th {
-  border: 1px solid lightgray;
-  text-align: left;
-  padding: 8px;
+td{
+  border: 1px solid black;
+  padding: 5px;
+  border-spacing: 15px;
+}
+
+/*(0,0,1) */
+th{
+  border: 1px solid black;
+  padding: 5px;
+  border-spacing: 15px;
+  color: white;
+  background-color: inherit;
 }
 
 /*(0,1,2) */
@@ -128,7 +137,35 @@ article{
   line-height: 1.8;
 }
 
+/*(1,0,0) */
+#torres{
+  color: white;
+  background-color: inherit;
+}
 
+/*(1,0,0) */
+#diciembre{
+  color: white;
+  background-color: inherit;
+}
+
+/*(1,0,0) */
+#min{
+  color: white;
+  background-color: inherit;
+}
+
+/*(1,0,0) */
+#millones{
+  color: white;
+  background-color: inherit;
+}
+
+/*(1,0,0) */
+#cifra{
+  color: white;
+  background-color: inherit;
+}
   
 
   
