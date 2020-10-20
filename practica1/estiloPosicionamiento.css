@@ -69,3 +69,11 @@ video{
   margin:auto;
   
 }
+/*(0,0,1) */
+audio{
+  display: block;
+  max-height: 300px;
+  max-width: 300px;
+  position: relative;
+  margin:auto;
+}
