@@ -95,10 +95,17 @@ nav li{
   border:1px solid black;
   text-align:center;
   color: black;
-  width: 13%;  
+  width: 20%;  
 }
 
-
+/*(0,0,2) */
+nav ul{
+  display: flex;
+  width: 100%;
+  margin:0;
+  padding:0;
+  float: center;
+}
 
 
     
