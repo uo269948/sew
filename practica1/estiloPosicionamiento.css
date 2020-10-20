@@ -24,13 +24,6 @@ div{
  
 
 
-/*(1,0,0) */
-#imagenReparto{
-  position: relative;
-  float: right;
-  width: 50%;
-  max-height: 300px;
-}
 
 /*(1,0,0) */
 #imagen3{
@@ -74,6 +67,7 @@ div{
 
 /*(0,0,1) */
 video{
+  display: block;
   max-height: 300px;
   max-width: 600px;
   position: relative;
