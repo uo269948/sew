@@ -5,7 +5,7 @@ div{
   }
 
   /*(0,0,2) */
-  nav a{
+nav a{
     float:left;
     display:block;
     text-transform: uppercase;
@@ -14,11 +14,8 @@ div{
    color:inherit;
    padding: 14px 16px;
    text-decoration: none;
-  }
+}
  
-
-
-
 /*(1,0,0) */
 #imagen3{
   position: relative;
