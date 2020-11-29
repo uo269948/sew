@@ -122,6 +122,7 @@ form {
 
 /*(0,1,0) */
 .memory {
+    visibility: hidden;
     color: white;
     
     background-color: navy;
