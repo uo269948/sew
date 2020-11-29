@@ -14,25 +14,12 @@
     </header>
     <div>
         <form>
-            <label for="potencia">hola</label>
-            <label for="lecturaActual">hola</label>
-            <label for="tiempo">hola</label>
-            <label for="ultimaLectura">hola</label>
-            <label for="consumoText">hola</label>
-            <label for="terminoPotencia">hola</label>
-            <label for="terminoEnergia">hola</label>
-            <label for="numeroDias">hola</label>
-            <label for="importePotenciaText">hola</label>
-            <label for="importePotenciaText">hola</label>
-            <label for="ImporteEnergiaText">hola</label>
-            <label for="otrosText">hola</label>
-            <label for="ivaText">hola</label>
-            <label for="totalFactura">hola</label>
+            
             
             <p>
                 Pot
                 <input type="text" id="potencia" value=""/>
-                <label>(kW)</label>
+                <label for="potencia">(kW)</label>
                 Lectura actual
                 <input type="text" id="lecturaActual" value=""/>
                 (kWh)
@@ -40,7 +27,7 @@
             <p>
                 Tiempo
                 <input type="text" id="tiempo" value=""/>
-                <label>(t)</label>
+                <label for="tiempo">(t)</label>
                 Ultima lectura
                 <input type="text" id="ultimaLectura" value=""/>
                 (kWh)
@@ -52,16 +39,16 @@
                 <input type="text" id="consumoText" value=""/>
                 (kWh)
             </p>
-           
+            
             <p>
                 Término potencia
                 <input type="text" id="terminoPotencia" value=""/>
-                <label>(€/kW-dia)</label>
+                <label for="terminoPotencia">(€/kW-dia)</label>
             </p>
             <p>
                 Término energia 
                 <input type="text" id="terminoEnergia" value=""/>
-                <label>(€/kWh)</label>
+                <label for="terminoEnergia">(€/kWh)</label>
                 Nº días
                 <input type="text" id="numeroDias" value=""/>
                 
@@ -70,27 +57,27 @@
                 
                 <input type="button" class="operation" value="Importe potencia" onclick="calculadora.importePotencia()"/>
                 <input type="text" id="importePotenciaText" value=""/>
-                <label>(€)</label>
+                <label for="importePotenciaText">(€)</label>
             </p>
             <p>
                 <input type="button" class="operation" value="Importe energía" onclick="calculadora.importeEnergia()"/>
                 <input type="text" id="ImporteEnergiaText" value=""/>
-                <label>(€)</label>
+                <label for="ImporteEnergiaText">(€)</label>
             </p>
             <p>
                 Otros importes
                 <input type="text" id="otrosText" value=""/>
-                <label>(€)</label>
+                <label for="otrosText">(€)</label>
             </p>
             <p>
                 <input type="button" class="operation" value="Iva 21%" onclick="calculadora.calcularIva()"/>
                 <input type="text" id="ivaText" value=""/>
-                <label>(€)</label>
+                <label for="ivaText">(€)</label>
             </p>
             <p>
                 <input type="button" class="operation" value="Total factura" onclick="calculadora.totalFactura()"/>
                 <input type="text" id="totalFactura" value=""/>
-                <label>(€)</label>
+                <label for="totalFactura">(€)</label>
             </p>
             <input type="submit" name="valida" id="val" value="0" disabled/>
         </form>
