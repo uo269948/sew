@@ -80,7 +80,7 @@ form {
       border-radius: 1px;
       text-align: left;
       color: black;
-      background: silver;
+      background: #ccc;
   }
    /*(0,1,1) */
    input[type=submit]{
