@@ -42,6 +42,7 @@ footer p {
     padding: 0;
     margin: 0;
 }
+[for="pantalla"] { display: none;}
 
 /*(0,0,0) */
 *,
