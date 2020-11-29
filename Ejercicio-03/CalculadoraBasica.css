@@ -1,18 +1,20 @@
+/*(0,0,1) */
 html {
     box-sizing: border-box;
 }
 
+/*(0,0,1) */
 body {
     position: relative;
     padding-bottom: 10em;
     min-height: 100%;
     max-height: 100%;
-
     color: white;
     background: black;
    
 }
 
+/*(0,0,1) */
 h1 {
     font-size: 34px;
     padding: 20px 0;
@@ -22,7 +24,7 @@ h1 {
     text-align: center;
 }
 
-
+/*(0,0,1) */
 footer {
     padding: 1em 1em;
     position: absolute;
@@ -35,19 +37,21 @@ footer {
     background-color: navy;
 }
 
-
+/*(0,0,2) */
 footer p {
     padding: 0;
     margin: 0;
 }
 
-
+/*(0,0,0) */
 *,
+/*(0,0,1) */
 *:before,
+/*(0,0,1) */
 *:after {
     box-sizing: inherit;
 }
-
+/*(0,0,1) */
 form {
     width: 100%;
     max-width: 400px;
@@ -58,7 +62,8 @@ form {
     color: inherit;
     background: white;
 }
-  input[type=textfield] {
+/*(0,1,1) */
+  input[type=text] {
       width: 75%;
       padding: 16px 32px;
       font-size: 16px;
@@ -69,6 +74,7 @@ form {
       color: black;
       background: #ccc;
   }
+  /*(0,1,1) */
   input[type=button], input[type=submit], input[type=reset] {
       
       border: none;
@@ -80,30 +86,32 @@ form {
       margin: 4px 2px;
       cursor: pointer;
   }
+  /*(0,2,1) */
   input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
     background-color: black;
     color:white;
   }
 
-  
+  /*(0,1,0) */
 .operation {
     color: black;
     background-color: lightskyblue;
     
 }
+/*(0,1,0) */
 .resultado {
     color: black;
     background-color: lightgrey;
 }
 
-
+/*(0,1,0) */
 .number {
     color: black;
     background-color:  lightgray;
     
 }
 
-
+/*(0,1,0) */
 .memory {
     background-color: gray;
     color: white;
