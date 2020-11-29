@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="author" content="Candela Bobes Junquera"/>
+    <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css"/>
+    <script src="CalculadoraCientifica.js"></script>
+</head>
+<body>
+<main>
+    <header>
+        <h1>Calculadora Cientifica</h1>
+    </header>
+    <div>
+        <form>
+            <label for="pantalla">hola</label>
+            <p>
+                <input type="textfield" id="pantalla" value=""/>
+            </p>
+            <p>
+                <input type="button" class="memory" value="mrc" onclick="calculadora.mostrarMemoria()"/>
+                <input type="button" class="memory" value="m-" onclick="calculadora.restarAMemoria()"/>
+                <input type="button" class="memory" value="m+" onclick="calculadora.sumarAMemoria()"/>
+            </p>
+            <p>
+                <input type="button" class="operation" value="x&#178;" onclick="calculadora.potencia2()"/>
+                <input type="button" class="operation" value="10^x" onclick="calculadora.potencia10()"/>
+                <input type="button" class="operation" value="x^y" onclick="calculadora.potencia()"/>
+                <input type="button" class="operation" value="e" onclick="calculadora.mostrar('2.71828182846')"/>
+                <input type="button" class="operation" value="log" onclick="calculadora.log()"/>
+                
+
+            </p>
+            <p>  
+                <input type="button" class="operation" value="sin" onclick="calculadora.sen()"/>
+                <input type="button" class="operation" value="cos" onclick="calculadora.cos()"/>
+                <input type="button" class="operation" value="tan" onclick="calculadora.tan()"/>
+                <input type="button" class="operation" value="&#8730;" onclick="calculadora.raiz()"/>
+                <input type="button" class="operation" value="Exp" onclick="calculadora.mostrar('E')"/>
+            </p>
+            <p>  
+                <input type="button" class="operation" value="arcsin" onclick="calculadora.asen()"/>
+                <input type="button" class="operation" value="arccos" onclick="calculadora.acos()"/>
+                <input type="button" class="operation" value="arctan" onclick="calculadora.atan()"/>
+                <input type="button" class="operation" value="&uarr;" onclick="calculadora.limpiarPantalla()"/>
+            </p>
+            <p>
+                
+                <input type="button" class="operation" value="ln" onclick="calculadora.ln()"/>
+                <input type="button" class="operation" value="C" onclick="calculadora.borrarPantalla()"/>
+                <input type="button" class="operation" value="&larr;" onclick="calculadora.cleanDisplayPartial()"/>
+                <input type="button" class="operation" value="/" onclick="calculadora.div()"/>
+            </p>
+            <p>
+                <input type="button" class="number" value="7" onclick="calculadora.mostrar('7')"/>
+                <input type="button" class="number" value="8" onclick="calculadora.mostrar('8')"/>
+                <input type="button" class="number" value="9" onclick="calculadora.mostrar('9')"/>
+                <input type="button" class="operation" value="*" onclick="calculadora.multi()"/>
+            </p>
+            <p>
+                <input type="button" class="number" value="4" onclick="calculadora.mostrar('4')"/>
+                <input type="button" class="number" value="5" onclick="calculadora.mostrar('5')"/>
+                <input type="button" class="number" value="6" onclick="calculadora.mostrar('6')"/>
+                <input type="button" class="operation" value="-" onclick="calculadora.resta()"/>
+            </p>
+            <p>
+                <input type="button" class="number" value="1" onclick="calculadora.mostrar('1')"/>
+                <input type="button" class="number" value="2" onclick="calculadora.mostrar('2')"/>
+                <input type="button" class="number" value="3" onclick="calculadora.mostrar('3')"/>
+                <input type="button" class="operation" value="+" onclick="calculadora.suma()"/>
+            </p>
+            <p>
+               
+                <input type="button" class="operation" value="&#928;" onclick="calculadora.mostrar('3.1415926535897')"/>
+                <input type="button" class="number" value="0" onclick="calculadora.mostrar('0')"/>
+                <input type="button" class="number" value="." onclick="calculadora.mostrar('.')"/>
+                <input type="button" class="operation" value="=" onclick="calculadora.calcularResultado()"/>
+            </p>
+            <input type="submit" name="valida" id="val" value="0" disabled/>
+        </form>
+    </div>
+</main>
+<footer>
+    <p>Candela Bobes Junquera</p>
+    <p>UO269948</p>
+</footer>
+</body>
+
+</html>
