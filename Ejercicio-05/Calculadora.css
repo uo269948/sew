@@ -68,6 +68,13 @@ form {
     background: #fafafa;
     color: inherit;
 }
+/*(0,1,0) */
+[for="pantalla"] { 
+    display: none;
+    color: white;
+    
+    background-color: black;
+}
     /*(0,1,1) */
     input[type=submit]{
         visibility: hidden;
