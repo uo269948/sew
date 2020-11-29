@@ -93,7 +93,7 @@ form {
       font-size: 17px;
       min-width: 16%;
       text-decoration: none;
-      margin: 2px 2px;
+      margin: 2px 5px;
       cursor: pointer;
   }
   input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
