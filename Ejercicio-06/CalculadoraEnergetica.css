@@ -56,6 +56,37 @@ footer p {
 }
 
 
+/*(0,1,0) */
+[for="lecturaActual"] { 
+    display: none;
+    color: white;
+    
+    background-color: black;
+}
+
+/*(0,1,0) */
+[for="ultimaLectura"] { 
+    display: none;
+    color: white;
+    
+    background-color: black;
+}
+/*(0,1,0) */
+[for="consumoText"] { 
+    display: none;
+    color: white;
+    
+    background-color: black;
+}
+
+/*(0,1,0) */
+[for="numeroDias"] { 
+    display: none;
+    color: white;
+    
+    background-color: black;
+}
+
 
 form {
     width: 100%;
