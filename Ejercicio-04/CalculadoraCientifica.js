@@ -3,7 +3,6 @@
 class Calculadora {
    
     constructor() {
-        this.memoria = 0;
         this.r =0;
         this.op=" ";
         this.numero="";
@@ -507,7 +506,6 @@ class Calculadora {
     borrarPantalla() {
         var pantalla = document.getElementById("pantalla");
         pantalla.value = "";
-        this.memoria = 0;
         this.r =0;
         this.op=" ";
         this.numero="";
@@ -535,37 +533,7 @@ class Calculadora {
         }
     }
 
-    sumarAMemoria() {
-        try {
-            var pantalla = document.getElementById("pantalla");
-            this.memoria += eval(pantalla.value);
-            this.conc="";
-            this.numero="";
-            this.borrarPantalla();
-        } catch (e) {
-            alert('Operacion no correcta');
-        }
-    }
-
-    restarAMemoria() {
-        try {
-            var pantalla = document.getElementById("pantalla");
-            this.memoria -= eval(pantalla.value);
-            this.conc="";
-            this.numero="";
-            this.borrarPantalla();
-        } catch (e) {
-            alert('Operacion no correcta');
-        }
-    }
-
-    mostrarMemoria() {
-        var pantalla = document.getElementById("pantalla");
-        pantalla.value += this.memoria;
-        this.memoria = 0;
-        this.r =1;
-        this.conc=pantalla.value;
-    }
+    
 
 
 
@@ -573,7 +541,6 @@ class Calculadora {
     limpiarPantalla() {
         var pantalla = document.getElementById("pantalla");
         pantalla.value = "";
-        this.memoria=0;
         this.conc="";
         this.operacion=0;
         this.numero="";
