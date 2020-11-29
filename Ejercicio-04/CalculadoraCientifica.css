@@ -1,12 +1,9 @@
-
+/*(0,0,1) */
 html {
     
     box-sizing: border-box;
 }
-
-
-
-
+/*(0,0,1) */
 body {
     position: relative;
     padding-bottom: 10em;
@@ -17,7 +14,7 @@ body {
    
 }
 
-
+/*(0,0,1) */
 h1 {
     font-size: 34px;
    
@@ -27,7 +24,7 @@ h1 {
     text-align: center;
 }
 
-
+/*(0,0,1) */
 footer {
     padding: 1em 1em;
     position: absolute;
@@ -40,12 +37,12 @@ footer {
     background-color: navy;
 }
 
-
+/*(0,0,2) */
 footer p {
     padding: 0;
     margin: 0;
 }
-
+/*(0,1,0) */
 [for="pantalla"] { 
     display: none;
     color: white;
@@ -53,24 +50,27 @@ footer p {
     background-color: black;
 }
 
-
+/*(0,0,0) */
 *,
+/*(0,0,1) */
 *:before,
+/*(0,0,1) */
 *:after {
     box-sizing: inherit;
 }
-
+/*(0,0,1) */
 form {
     width: 100%;
     max-width: 500px;
     
     text-align: center;
-    border: solid 1px #c2c2c2;
+    border: solid 1px silver;
     padding-bottom: 10px;
     margin: auto;
     background: white;
     color: black;
 }
+/*(0,1,1) */
   input[type=text] {
       width: 75%;
       padding: 5px 10px;
@@ -79,13 +79,14 @@ form {
       border: 1px solid silver;
       border-radius: 1px;
       text-align: left;
-      color: #333;
-      background: #ccc;
+      color: black;
+      background: silver;
   }
    /*(0,1,1) */
    input[type=submit]{
     visibility: hidden;
   }
+  /*(0,1,1) */
   input[type=button], input[type=submit], input[type=reset] {
       
       border: none;
@@ -99,30 +100,32 @@ form {
 
       cursor: pointer;
   }
+  /*(0,2,1) */
   input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
-    background-color: #333;
+    background-color: black;
     color:white;
   }
 
-  
+  /*(0,1,0) */
 .operation {
     color: black;
     background-color: lightskyblue;
     
 }
+ /*(0,1,0) */
 .resultado {
     color: black;
     background-color: lightgrey;
 }
 
-
+ /*(0,1,0) */
 .number {
     color: black;
     background-color:  lightgray;
     
 }
 
-
+ /*(0,1,0) */
 .memory {
     background-color: navy;
     color: white;
