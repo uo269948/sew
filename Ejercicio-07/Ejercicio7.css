@@ -99,6 +99,19 @@ body {
         font-size: 13px;
         margin-bottom: 1%;
        }
+        /*(0,0,1) */
+    h6{
+        text-align: center;
+        font-size: 13px;
+        margin-bottom: 1%;
+       }
+        /*(0,0,1) */
+    h7{
+        font-size: 12px;
+        text-align: center;
+        font-size: 13px;
+        margin-bottom: 1%;
+       }
   
   /*(0,0,1) */
   article{
@@ -187,6 +200,32 @@ body {
     color: white;
     
     background-color: black;
+}
+input[type=text] {
+    width: 20%;
+    padding: 5px 10px;
+    font-size:17px;
+    margin: 5px 5px;
+    border: 1px solid silver;
+    border-radius: 1px;
+    text-align: left;
+    color: #333;
+    background: white;
+}
+input[type=button], input[type=submit], input[type=reset] {
+    
+    border: none;
+    
+    padding: 10px 32px;
+    font-size: 17px;
+    min-width: 16%;
+    text-decoration: none;
+    margin: 10px 10px;
+    cursor: pointer;
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+  background-color: #333;
+  color:white;
 }
   
   /*(0,0,1) */
