@@ -1,5 +1,6 @@
 /*(0,0,1) */
 html {
+    
     box-sizing: border-box;
 }
 /*(0,0,1) */
@@ -16,7 +17,7 @@ body {
 /*(0,0,1) */
 h1 {
     font-size: 34px;
-    padding: 20px 0;
+   
     
     background-color: navy;
     color: white;
@@ -35,17 +36,18 @@ footer {
     
     background-color: navy;
 }
+
+/*(0,0,2) */
+footer p {
+    padding: 0;
+    margin: 0;
+}
 /*(0,1,0) */
 [for="pantalla"] { 
     display: none;
     color: white;
     
     background-color: black;
-}
-/*(0,0,2) */
-footer p {
-    padding: 0;
-    margin: 0;
 }
 
 /*(0,0,0) */
@@ -59,28 +61,29 @@ footer p {
 /*(0,0,1) */
 form {
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
+    
     text-align: center;
     border: solid 1px silver;
     padding-bottom: 10px;
     margin: auto;
-    color: inherit;
     background: white;
+    color: inherit;
 }
 /*(0,1,1) */
   input[type=text] {
       width: 75%;
-      padding: 16px 32px;
+      padding: 5px 10px;
       font-size: 16px;
-      margin: 8px 0;
+      margin: 1px 0;
       border: 1px solid silver;
       border-radius: 1px;
       text-align: left;
       color: black;
       background: #ccc;
   }
-  /*(0,1,1) */
-  input[type=submit]{
+   /*(0,1,1) */
+   input[type=submit]{
     visibility: hidden;
   }
   /*(0,1,1) */
@@ -88,11 +91,11 @@ form {
       
       border: none;
       
-      padding: 16px 32px;
+      padding: 10px 32px;
       font-size: 16px;
-      min-width: 21%;
+      min-width: 16%;
       text-decoration: none;
-      margin: 4px 2px;
+      margin: 2px 2px;
       cursor: pointer;
   }
   /*(0,2,1) */
@@ -107,23 +110,15 @@ form {
     background-color: lightskyblue;
     
 }
-/*(0,1,0) */
+ /*(0,1,0) */
 .resultado {
     color: black;
     background-color: lightgrey;
 }
 
-/*(0,1,0) */
+ /*(0,1,0) */
 .number {
     color: black;
     background-color:  lightgray;
     
-}
-
-/*(0,1,0) */
-.memory {
-    visibility: hidden;
-    color: white;
-    
-    background-color: navy;
 }
