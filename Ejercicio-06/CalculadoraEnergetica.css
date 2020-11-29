@@ -72,7 +72,7 @@ form {
     padding-bottom: 10px;
     margin: auto;
     background: white;
-    color: inherit;
+    color: black;
 }
   input[type=text] {
       width: 20%;
@@ -130,6 +130,8 @@ form {
 }
 label{
     margin-right: 5mm;
+    color:black;
+    background-color: inherit;
 }
 #consumoText{
     width: 30%;
