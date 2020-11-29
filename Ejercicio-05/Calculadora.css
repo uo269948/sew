@@ -121,7 +121,7 @@ form {
 #pantalla{
     border:1px solid;
         height:100px;
-        width: 300px;
+        width: 250px;
         overflow-y:scroll;
         align-items: center;
         text-align: right;
