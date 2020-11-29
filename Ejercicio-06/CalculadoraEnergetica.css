@@ -77,8 +77,8 @@ form {
   input[type=text] {
       width: 20%;
       padding: 5px 10px;
-      font-size: 16px;
-      margin: 1px 0;
+      font-size: 17px;
+      margin: 2px 0;
       border: 1px solid silver;
       border-radius: 1px;
       text-align: left;
@@ -90,7 +90,7 @@ form {
       border: none;
       
       padding: 10px 32px;
-      font-size: 16px;
+      font-size: 17px;
       min-width: 16%;
       text-decoration: none;
       margin: 2px 2px;
@@ -136,8 +136,8 @@ label{
 #consumoText{
     width: 30%;
       padding: 5px 10px;
-      font-size: 16px;
-      margin: 1px 0;
+      font-size: 17px;
+      margin: 2px 0;
       border: 1px solid silver;
       border-radius: 1px;
       text-align: center;
@@ -147,8 +147,8 @@ label{
 #importePotenciaText{
     width: 30%;
     padding: 5px 10px;
-    font-size: 16px;
-    margin: 1px 0;
+    font-size: 17px;
+    margin: 2px 0;
     border: 1px solid silver;
     border-radius: 1px;
     text-align: left;
@@ -159,8 +159,8 @@ label{
 #ImporteEnergiaText{
     width: 30%;
     padding: 5px 10px;
-    font-size: 16px;
-    margin: 1px 0;
+    font-size: 17px;
+    margin: 2px 0;
     border: 1px solid silver;
     border-radius: 1px;
     text-align: left;
@@ -171,8 +171,8 @@ label{
 #otrosText{
     width: 30%;
     padding: 5px 10px;
-    font-size: 16px;
-    margin: 1px 0;
+    font-size: 17px;
+    margin: 2px 0;
     border: 1px solid silver;
     border-radius: 1px;
     text-align: left;
@@ -183,8 +183,8 @@ label{
 #ivaText{
     width: 30%;
     padding: 5px 10px;
-    font-size: 16px;
-    margin: 1px 0;
+    font-size: 17px;
+    margin: 2px 0;
     border: 1px solid silver;
     border-radius: 1px;
     text-align: left;
@@ -195,8 +195,8 @@ label{
 #totalFactura{
     width: 30%;
     padding: 5px 10px;
-    font-size: 16px;
-    margin: 1px 0;
+    font-size: 17px;
+    margin: 2px 0;
     border: 1px solid silver;
     border-radius: 1px;
     text-align: left;
