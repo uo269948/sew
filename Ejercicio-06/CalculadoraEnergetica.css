@@ -78,7 +78,7 @@ form {
       width: 20%;
       padding: 5px 10px;
       font-size: 17px;
-      margin: 2px 2px;
+      margin: 5px 5px;
       border: 1px solid silver;
       border-radius: 1px;
       text-align: left;
@@ -93,7 +93,7 @@ form {
       font-size: 17px;
       min-width: 16%;
       text-decoration: none;
-      margin: 5px 5px;
+      margin: 10px 10px;
       cursor: pointer;
   }
   input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
@@ -137,7 +137,7 @@ label{
     width: 30%;
       padding: 5px 10px;
       font-size: 17px;
-      margin: 2px 0;
+      margin: 5px 5px;
       border: 1px solid silver;
       border-radius: 1px;
       text-align: center;
@@ -148,7 +148,7 @@ label{
     width: 30%;
     padding: 5px 10px;
     font-size: 17px;
-    margin: 2px 0;
+    margin: 5px 5px;
     border: 1px solid silver;
     border-radius: 1px;
     text-align: left;
@@ -160,7 +160,7 @@ label{
     width: 30%;
     padding: 5px 10px;
     font-size: 17px;
-    margin: 2px 0;
+   margin: 5px 5px;
     border: 1px solid silver;
     border-radius: 1px;
     text-align: left;
@@ -172,7 +172,7 @@ label{
     width: 30%;
     padding: 5px 10px;
     font-size: 17px;
-    margin: 2px 0;
+    margin: 5px 5px;
     border: 1px solid silver;
     border-radius: 1px;
     text-align: left;
@@ -184,7 +184,7 @@ label{
     width: 30%;
     padding: 5px 10px;
     font-size: 17px;
-    margin: 2px 0;
+   margin: 5px 5px;
     border: 1px solid silver;
     border-radius: 1px;
     text-align: left;
@@ -196,7 +196,7 @@ label{
     width: 30%;
     padding: 5px 10px;
     font-size: 17px;
-    margin: 2px 0;
+    margin: 5px 5px;
     border: 1px solid silver;
     border-radius: 1px;
     text-align: left;
