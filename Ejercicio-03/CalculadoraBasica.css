@@ -42,7 +42,12 @@ footer p {
     padding: 0;
     margin: 0;
 }
-[for="pantalla"] { display: none;}
+[for="pantalla"] { 
+    display: none;
+    color: white;
+    
+    background-color: navy;
+}
 
 /*(0,0,0) */
 *,
