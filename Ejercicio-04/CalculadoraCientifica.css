@@ -97,8 +97,6 @@ form {
       text-decoration: none;
       margin: 2px 2px;
       cursor: pointer;
-
-      cursor: pointer;
   }
   /*(0,2,1) */
   input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
