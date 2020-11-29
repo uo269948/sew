@@ -1,30 +1,50 @@
+/*(0,0,1) */
 body{
     background-color:white;
     color:black;
     text-align: center;
 }
+/*(0,0,1) */
 h1{
-    text-align:center;
-    color:red;
-    background-color:white;
-}
-h2{
-    text-align:center;
-    color:green;
-    background-color:white;
-}
-h3{
     text-align:center;
     color:blue;
     background-color:white;
+    text-transform: uppercase;
 }
+/*(0,0,1) */
+h2{
+    text-align:center;
+    color:red;
+    background-color:white;
+    text-transform: uppercase;
+}
+/*(0,0,1) */
+h3{
+    text-align:center;
+    color:green;
+    background-color:white;
+    text-transform: uppercase;
+}
+/*(0,0,1) */
 h4{
     text-align:center;
     color:black;
     background-color:white;
+    text-transform: uppercase;
 }
+
+/*(0,0,1) */
+footer{
+    color:black;
+    background-color:lightgray;
+    text-align: right;
+    font: 400 15px Tahoma,sans-serif; /*Familia sans-serif*/
+    line-height: 1.8;
+
+  }
+/*(0,0,1) */
 p{
     color:black;
-    background-color:white;
+    background-color:lightgrey;
     
 }
