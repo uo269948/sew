@@ -1,0 +1,122 @@
+ /*(0,0,1) */
+html {
+    box-sizing: border-box;
+}
+
+
+
+ /*(0,0,1) */
+body {
+    position: relative;
+    padding-bottom: 10em;
+    min-height: 100%;
+    max-height: 100%;
+
+    color: white;
+    background: black;
+   
+}
+
+ /*(0,0,1) */
+h1 {
+    font-size: 34px;
+   
+    
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
+
+ /*(0,0,1) */
+footer {
+    padding: 1em 1em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: right;
+    color: white;
+    
+    background-color: navy;
+}
+
+ /*(0,0,2) */
+footer p {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+ /*(0,0,0) */
+*,
+ /*(0,0,1) */
+*:before,
+ /*(0,0,1) */
+*:after {
+    box-sizing: inherit;
+}
+ /*(0,0,1) */
+form {
+    width: 100%;
+    max-width: 500px;
+    
+    text-align: center;
+    border: solid 0.5px silver;
+    padding-bottom: 1px;
+    margin: auto;
+    background: #fafafa;
+    color: inherit;
+}
+    /*(0,1,1) */
+    input[type=submit]{
+        visibility: hidden;
+      }
+       /*(0,1,1) */
+  input[type=button], input[type=submit], input[type=reset] {
+      
+      border: none;
+      
+      padding: 10px 28px;
+      font-size: 16px;
+      min-width: 16%;
+      text-decoration: none;
+      margin: 1px 2px;
+      cursor: pointer;
+  }
+   /*(0,2,1) */
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: black;
+    color:white;
+  }
+
+ /*(0,1,0) */
+.operation {
+    color: black;
+    background-color: lightskyblue;
+    
+}
+ /*(0,1,0) */
+.resultado {
+    color: black;
+    background-color: lightgrey;
+}
+
+ /*(0,1,0) */
+.number {
+    color: black;
+    background-color:  lightgray;
+    
+}
+
+
+ /*(1,0,0) */
+#pantalla{
+    border:1px solid;
+        height:100px;
+        width:500px;
+        overflow-y:scroll;
+        display: block;
+        align-items: center;
+        text-align: right;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+   
+   <link rel="stylesheet" type="text/css" href="Calculadora.css"/>
+    <title>Ejercicio5</title>
+    <script src="Calculadora.js"></script>
+</head>
+<body>
+<header>
+    <h1>Calculadora RPN</h1>
+</header>
+<main>
+    <form>
+        <label for="pantalla">hola</label>
+        <p>Resultado
+            <textarea id="pantalla" ></textarea>
+          
+        </p>
+       
+        <p>
+            <input type="button" class="memory" value="sin" onclick="calculator.seno()"/>
+            <input type="button" class="memory" value="cos" onclick="calculator.coseno()"/>
+            <input type="button" class="memory" value="tan" onclick="calculator.tan()"/>
+            <input type="button" class="operation" value="/" onclick="calculator.operationDiv()"/>
+        </p>
+        <p>
+            <input type="button" class="number" value="7" onclick="calculator.display('7')"/>
+            <input type="button" class="number" value="8" onclick="calculator.display('8')"/>
+            <input type="button" class="number" value="9" onclick="calculator.display('9')"/>
+            <input type="button" class="operation" value="*" onclick="calculator.operationMul()"/>
+        </p>
+        <p>
+            <input type="button" class="number" value="4" onclick="calculator.display('4')"/>
+            <input type="button" class="number" value="5" onclick="calculator.display('5')"/>
+            <input type="button" class="number" value="6" onclick="calculator.display('6')"/>
+            <input type="button" class="operation" value="-" onclick="calculator.operationMinus()"/>
+        </p>
+        <p>
+            <input type="button" class="number" value="1" onclick="calculator.display('1')"/>
+            <input type="button" class="number" value="2" onclick="calculator.display('2')"/>
+            <input type="button" class="number" value="3" onclick="calculator.display('3')"/>
+            <input type="button" class="operation" value="+" onclick="calculator.operationAdd()"/>
+        </p>
+        <p>
+            <input type="button" class="number" value="0" onclick="calculator.display('0')"/>
+            <input type="button" class="number" value="." onclick="calculator.display('.')"/>
+            <input type="button" class="number" value="C" onclick="calculator.clean()"/>
+            <input type="button" class="operation" value="Enter" onclick="calculator.enter()"/>
+        </p>
+        <input type="submit" name="valida" id="val" value="0" disabled/>
+    </form>
+    <p></p>
+    <p></p>
+    <p></p>
+</main>
+<footer>
+    <p>Candela Bobes Junquera</p>
+    <p>UO269948</p>
+</footer>
+</body>
+
+</html>
