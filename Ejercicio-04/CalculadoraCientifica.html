@@ -19,6 +19,11 @@
                 <input type="text" id="pantalla" value=""/>
             </p>
             <p>
+                <input type="hidden" class="memory" value="mrc" onclick="calculadora.mostrarMemoria()"/>
+                <input type="hidden" class="memory" value="m-" onclick="calculadora.restarAMemoria()"/>
+                <input type="hidden" class="memory" value="m+" onclick="calculadora.sumarAMemoria()"/>
+            </p>
+            <p>
                 <input type="button" class="operation" value="x&#178;" onclick="calculadora.potencia2()"/>
                 <input type="button" class="operation" value="10^x" onclick="calculadora.potencia10()"/>
                 <input type="button" class="operation" value="x^y" onclick="calculadora.potencia()"/>
