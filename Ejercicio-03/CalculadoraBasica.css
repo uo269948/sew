@@ -2,7 +2,6 @@
 html {
     box-sizing: border-box;
 }
-
 /*(0,0,1) */
 body {
     position: relative;
@@ -36,17 +35,17 @@ footer {
     
     background-color: navy;
 }
-
-/*(0,0,2) */
-footer p {
-    padding: 0;
-    margin: 0;
-}
+/*(0,1,0) */
 [for="pantalla"] { 
     display: none;
     color: white;
     
     background-color: black;
+}
+/*(0,0,2) */
+footer p {
+    padding: 0;
+    margin: 0;
 }
 
 /*(0,0,0) */
@@ -79,6 +78,10 @@ form {
       text-align: left;
       color: black;
       background: #ccc;
+  }
+  /*(0,1,1) */
+  input[type=submit]{
+    visibility: hidden;
   }
   /*(0,1,1) */
   input[type=button], input[type=submit], input[type=reset] {
@@ -119,6 +122,7 @@ form {
 
 /*(0,1,0) */
 .memory {
-    background-color: navy;
     color: white;
+    
+    background-color: navy;
 }
