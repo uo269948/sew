@@ -17,6 +17,14 @@ body {
     text-align: center;    
     font-size: 25px;  
   }
+    /*(0,0,1) */
+  label{
+    color: black;
+    background-color:lightgray;
+    padding: 15px 15px;
+    text-align: center; 
+    font-size: 19px;
+  }
   
   /*(0,0,1) */
   footer{
@@ -196,19 +204,7 @@ input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
     line-height: 1.8;
   }
   
-  /*(1,0,0) */
-  #torres, #diciembre, #min, #millones, #cifra{
-    color: white;
-    background-color: inherit;
-  }
-    /*(1,0,0) */
-  #cambios{
-      text-align: center;
-  }
-      /*(1,0,0) */
-  #noMostrar{
-    display: none;
-  }
+ 
     
   
     
