@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<title>jQuery-AJAX-XML-meteo</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="Ejercicio10.css"/>
+</head>
+<body>
+<main>
+    <h1> Cambio de monedas</h1>
+   
+        <label for="cantidad" >Cantidad</label>
+        <input type="text" id="cantidad" value=""/>
+        
+        <img id="img1" src="img1.png" alt="imagen euro"/>
+        <p>Convertir a:</p>
+       
+        <p></p>
+        <input type="button" value="CAD" onclick="money.loadDataCAD()"/>
+        <input type="button" value="USD" onclick="money.loadDataUSD()"/>
+        <input type="button" value="PHP" onclick="money.loadDataPHP()"/>
+        <input type="button" value="SGD" onclick="money.loadDataSGD()"/>
+        <input type="button" value="ZAR" onclick="money.loadDataZAR()"/>
+        <p></p>
+      
+   
+    <div id="resultado">
+    </div>
+    <p></p>
+    <img id="imagen2" src="IMG1.jpg" alt="imagen monedas"/>
+    <script src="Ejercicio10.js"></script>
+</main>
+<footer>
+    <p>Candela Bobes Junquera</p>
+    <p>UO269948</p>
+</footer>
+</body>
+</html>
