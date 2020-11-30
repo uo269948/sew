@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    
+    <link rel="stylesheet" type="text/css" href="MapaDinamico.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="MapaDinamico.js"></script>
+</head>
+<body>
+<header>
+    <h1>Ejercicio 11 - JavaSript </h1>
+</header>
+<main>
+    <h2>Información del tiempo</h2>
+    <p>
+        
+        <input type="text" id="ciudad" value="Posada de Valdeon">
+    </p>
+    <img id = "imagen1Hito1" src="https://media2.clubrural.com/img990x400/pueblos/leon/posada-de-valdeon/20151022121025-leon-posada-de-valdeon.jpg" alt ="foto hito 1"/>
+    <p>
+        <input type="button" value="Cargar datos" onclick="weather.showDataPosadaDeValdeon()"/>
+    </p>
+    <div id="posada"></div>
+    <div id="contenido"></div>
+    <div id="mapa"></div>
+    
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU&callback=mapaDinamicoGoogle.initMap1">
+    </script>
+</main>
+<footer>
+</footer>
+<script src="AplicacionGoogleMaps.js"></script>
+
+</body>
+</html>
