@@ -1,10 +1,11 @@
 /*(0,0,1) */
 body {
-    font: 400 25px Tahoma,sans-serif; /*Familia sans-serif*/
+    font: Tahoma,sans-serif; /*Familia sans-serif*/
     line-height: 1.8;
     color: black;
     background-color:  darkolivegreen;
     text-align: center;
+    font-size: 23px;
   }
   
   /*(0,0,1) */
