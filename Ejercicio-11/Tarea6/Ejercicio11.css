@@ -229,11 +229,16 @@ input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
    input[type=submit]{
     visibility: hidden;
   }
-  /*1,0,0*/
+  /*(1,0,0)*/
 #mapa {
     height: 400px;
     width: 400px;
 }
+  /*(1,0,0)*/
 #novisible{
   visibility: hidden;
 }
+   /*(0,1,1) */
+a:visited {
+  color: white;
+  }
