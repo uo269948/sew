@@ -238,13 +238,3 @@ input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
 #novisible{
   visibility: hidden;
 }
-   /*(0,0,1) */
-   a{
-     color: white;
-     background-color: inherit;
-   }
-   /*(0,1,1) */
-a:visited {
-  color: white;
-  background-color: inherit;
-  }
