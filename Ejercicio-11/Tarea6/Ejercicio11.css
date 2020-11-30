@@ -231,7 +231,9 @@ input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
   }
   /*1,0,0*/
 #mapa {
-    height: 500px;
-    width: 100%;
+    height: 400px;
+    width: 400px;
 }
-  
+#novisible{
+  visibility: hidden;
+}
