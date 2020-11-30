@@ -21,7 +21,7 @@ class Weather {
                     $("pre").text(JSON.stringify(datos, null, 2));
                    
                     
-                    var stringDatos = "<h3>" +datos.name + "<img src='https://openweathermap.org/img/w/" + datos.weather[0].icon + ".png' alt='Weather icon'>" +"</h3>";
+                    var stringDatos = "<h2>" +datos.name + "<img src='https://openweathermap.org/img/w/" + datos.weather[0].icon + ".png' alt='Weather icon'>" +"</h2>";
                             stringDatos += "<table><thead><tr><th>Datos</th><th>Valores</th></tr></thead>"
                             stringDatos += "<tbody>"
                             stringDatos += "<tr><td>Pai­s: </td><td>" + datos.sys.country + "</td></tr>";
@@ -46,8 +46,8 @@ class Weather {
                    
                 },
             error:function(){
-                $("h4").html("Â¡Tenemos problemas! No puedo obtener JSON de <a href='http://openweathermap.org'>OpenWeatherMap</a>"); 
-                $("h3").remove();
+                $("h3").html("Â¡Tenemos problemas! No puedo obtener JSON de <a href='http://openweathermap.org'>OpenWeatherMap</a>"); 
+                $("h2").remove();
                 $("pre").remove();
                 
                 }
@@ -118,7 +118,7 @@ class Weather {
                 $("pre").text(JSON.stringify(datos, null, 2));
                
                 
-                var stringDatos = "<h3>" +datos.name + "<img src='https://openweathermap.org/img/w/" + datos.weather[0].icon + ".png' alt='Weather icon'>" +"</h3>";
+                var stringDatos = "<h2>" +datos.name + "<img src='https://openweathermap.org/img/w/" + datos.weather[0].icon + ".png' alt='Weather icon'>" +"</h2>";
 						stringDatos += "<table><thead><tr><th>Datos</th><th>Valores</th></tr></thead>"
 						stringDatos += "<tbody>"
                         stringDatos += "<tr><td>Pai­s: </td><td>" + datos.sys.country + "</td></tr>";
@@ -143,8 +143,8 @@ class Weather {
                
             },
         error:function(){
-            $("h4").html("Â¡Tenemos problemas! No puedo obtener JSON de <a href='http://openweathermap.org'>OpenWeatherMap</a>"); 
-            $("h3").remove();
+            $("h3").html("Â¡Tenemos problemas! No puedo obtener JSON de <a href='http://openweathermap.org'>OpenWeatherMap</a>"); 
+            $("h2").remove();
             $("pre").remove();
             
             }
