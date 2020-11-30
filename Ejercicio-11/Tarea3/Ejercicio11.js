@@ -4,7 +4,7 @@ class MapaEstaticoGoogle {
         navigator.geolocation.getCurrentPosition(this.getPosicion.bind(this), this.verErrores.bind(this));
     }
     getPosicion(posicion){
-        this.mensaje = "Se ha realizado correctamente la peticion de geolocalizaciÃ³n";
+        this.mensaje = "Se ha realizado correctamente la peticion de geolocalizacion";
         this.longitud         = posicion.coords.longitude; 
         this.latitud          = posicion.coords.latitude;  
         this.precision        = posicion.coords.accuracy;
@@ -31,10 +31,10 @@ class MapaEstaticoGoogle {
             this.mensaje = "El usuario no permite la peticiÃ³n de geolocalizaciÃ³n"
             break;
         case error.POSITION_UNAVAILABLE:
-            this.mensaje = "InformaciÃ³n de geolocalizaciÃ³n no disponible"
+            this.mensaje = "Informacion de geolocalizaciÃ³n no disponible"
             break;
         case error.TIMEOUT:
-            this.mensaje = "La peticiÃ³n de geolocalizaciÃ³n ha caducado"
+            this.mensaje = "La peticion de geolocalizaciÃ³n ha caducado"
             break;
         case error.UNKNOWN_ERROR:
             this.mensaje = "Se ha producido un error desconocido"
@@ -55,9 +55,9 @@ class MapaEstaticoGoogle {
         var datos='<p>'+ this.mensaje + '</p>'; 
         datos+='<p>Longitud: '+this.longitud +' grados</p>'; 
         datos+='<p>Latitud: '+this.latitud +' grados</p>';
-        datos+='<p>PrecisiÃ³n de la longitud y latitud: '+ this.precision +' metros</p>';
+        datos+='<p>Precision de la longitud y latitud: '+ this.precision +' metros</p>';
         datos+='<p>Altitud: '+ this.altitude +' metros</p>';
-        datos+='<p>PrecisiÃ³n de la altitud: '+ this.precisionAltitud +' metros</p>'; 
+        datos+='<p>Precision de la altitud: '+ this.precisionAltitud +' metros</p>'; 
         datos+='<p>Rumbo: '+ this.rumbo +' grados</p>'; 
         datos+='<p>Velocidad: '+ this.velocidad +' metros/segundo</p>';
         ubicacion.innerHTML = datos;
