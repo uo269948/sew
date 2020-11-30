@@ -1,4 +1,4 @@
-"use strict";
+
 class Geolocalizacion {
     constructor (){
         navigator.geolocation.getCurrentPosition(this.getPosicion.bind(this));
@@ -10,7 +10,19 @@ class Geolocalizacion {
         this.altitud          = posicion.coords.altitude;
         this.precisionAltitud = posicion.coords.altitudeAccuracy;
         this.rumbo            = posicion.coords.heading;
-        this.velocidad        = posicion.coords.speed;       
+        this.velocidad        = posicion.coords.speed;  
+        if(this.altitud==null){
+            this.altitud="No disponible";
+        }     
+        if(this.precisionAltitud==null){
+            this.precisionAltitud="No disponible";
+        }  
+        if(this.rumbo==null){
+            this.rumbo="No disponible";
+        }  
+        if(this.velocidad==null){
+            this.velocidad="No disponible";
+        }  
     }
     getLongitud(){
         return this.longitud;

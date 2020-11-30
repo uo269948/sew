@@ -12,6 +12,18 @@ class Geolocalizacion {
         this.precisionAltitud = posicion.coords.altitudeAccuracy;
         this.rumbo            = posicion.coords.heading;
         this.velocidad        = posicion.coords.speed;       
+        if(this.altitud==null){
+            this.altitud="No disponible";
+        }     
+        if(this.precisionAltitud==null){
+            this.precisionAltitud="No disponible";
+        }  
+        if(this.rumbo==null){
+            this.rumbo="No disponible";
+        }  
+        if(this.velocidad==null){
+            this.velocidad="No disponible";
+        }  
     }
     verErrores(error){
         switch(error.code) {
