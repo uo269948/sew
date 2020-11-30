@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Ejercicio12.css"/>
+    <title>Ejercicio12</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body id="texto">
+<header id="cabecera">
+    <h1>Cargar varios archivos de la máquina cliente</h1>
+</header>
+<main>
+    <section>
+        
+            <h3>Seleccione los archivos</h3>
+            <label for="files"></label>
+            <input type="file" id="files" onchange="apiFile.processFiles();" multiple>
+        
+    </section>
+    <section id="result">
+        <h4>Aquí se mostrarán propiedades de los archivos introducidos</h4>
+    </section>
+</main>
+<script src="Ejercicio12.js"></script>
+<footer>
+    <p>Candela Bobes Junquera</p>
+    <p>UO269948</p>
+</footer>
+</body>
+</html>
