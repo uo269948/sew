@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="Ejercicio14.css"/>
+    <title>Ejercicio14</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    
+	<h1>Carga una imagen desde la máquina cliente y la visualiza</h1>
+	<h2 id="soporta"></h2>
+	<label for="file">Selecciona un archivo: </label>
+    <input type="file" id="file" accept="image/*" onchange="editor.mostrar()"/>
+    <input type="button" id="fullScreen" value="Ver en pantalla completa" onClick="editor.fullscreen()"/>
+    <input type="button" id="BlancoNegro" value="Ver en blanco y negro" onClick="editor.blancoYNegro()"/>
+    <canvas id="canvas">Aquí se mostrará la imagen en blanco y negro
+    </canvas>
+    <img id="img"/>
+    
+	<script src="Ejercicio14.js"></script>
+<footer>
+    <p>Candela Bobes Junquera</p>
+    <p>UO269948</p>
+</footer>
+</body>
+</html>
