@@ -47,7 +47,10 @@ body {
   
     
   }
-  
+  #primera{
+    width: 30%;
+    font-size: 18px;
+  }
   
   /*(0,0,1) */
    h3{
