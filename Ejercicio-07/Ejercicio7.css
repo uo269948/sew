@@ -105,7 +105,9 @@ body {
         font-size: 13px;
         margin-bottom: 1%;
        }
- 
+        /*(0,0,1) */
+
+  
   /*(0,0,1) */
   article{
     color:black;
@@ -194,6 +196,7 @@ body {
     
     background-color: black;
 }
+/*(0,1,1) */
 input[type=text] {
     width: 20%;
     padding: 5px 10px;
@@ -205,6 +208,7 @@ input[type=text] {
     color: #333;
     background: white;
 }
+/*(0,1,1) */
 input[type=button], input[type=submit], input[type=reset] {
     
     border: none;
@@ -216,6 +220,7 @@ input[type=button], input[type=submit], input[type=reset] {
     margin: 10px 10px;
     cursor: pointer;
 }
+/*(0,2,1) */
 input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
   background-color: #333;
   color:white;
