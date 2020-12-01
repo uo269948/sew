@@ -189,11 +189,7 @@ input {
 #bFullscreen {
 	text-align: center;
 }
-canvas {
-  width:250;
-   height:188;
-   
-}
+
 #img{
   width: 80%;
   height: 80%;

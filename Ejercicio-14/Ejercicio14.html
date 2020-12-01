@@ -9,14 +9,14 @@
 <body>
     
 	<h1>Carga una imagen desde la máquina cliente y la visualiza</h1>
-	<h2 id="soporta"></h2>
+	<h2 id="soporta">Soporta el API File</h2>
 	<label for="file">Selecciona un archivo: </label>
     <input type="file" id="file" accept="image/*" onchange="editor.mostrar()"/>
     <input type="button" id="fullScreen" value="Ver en pantalla completa" onClick="editor.fullscreen()"/>
     <input type="button" id="BlancoNegro" value="Ver en blanco y negro" onClick="editor.blancoYNegro()"/>
     <canvas id="canvas">Aquí se mostrará la imagen en blanco y negro
     </canvas>
-    <img id="img"/>
+    <img id="img" src="https://data.pixiz.com/output/user/frame/preview/400x400/1/3/3/9/3069331_726cc.jpg" alt=" Aquí ira la imagen"/>
     
 	<script src="Ejercicio14.js"></script>
 <footer>
