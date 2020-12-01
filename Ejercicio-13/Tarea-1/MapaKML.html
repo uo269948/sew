@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="MapaKML.css"/>
+    <title>Ejercicio13</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6j4mF6blrc4kZ54S6vYZ2_FpMY9VzyRU"></script>
+    <script src="MapaKML.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+    
+<h1>Seleccionar un archivo .kml</h1>
+<h2>Seleccione archivo:</h2>
+<label for="cargarA">Seleccione</label>
+<input id="cargarA" type="file" onchange="archivo.cargarArchivos(this.files);">
+<div id="mapa"></div>
+<footer>
+    <p>Candela Bobes Junquera</p>
+    <p>UO269948</p>
+</footer>
+</body>
+</html>
