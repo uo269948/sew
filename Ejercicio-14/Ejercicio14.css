@@ -2,6 +2,7 @@
 html {
   height: 100%;
   box-sizing: border-box;
+  font-size: 25px;
 }
 
 /* a=0 b=0 c=1 -> Especificidad = 1 */
