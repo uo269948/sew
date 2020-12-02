@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Ejercicio11</title>
+    <link href="Ejercicio11.css" rel="stylesheet"/>
+</head>
+
+<body>
+    <h1>Ruta Picos de Europa</h1>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="Ejercicio11.js"></script>
+    <table id="primera">
+        <tr>
+        <th> Tipo </th>
+        <th> Dificultad </th>
+        <th> Duración </th>
+        <th> Descripción </th>
+        <th> Agencia </th>
+        <th> Perfil </th>
+        <th> Inicio Ruta </th>
+        <th> Dirección inicio ruta </th>
+        <th> Coordenadas </th>
+        <th> Enlaces referencia </th>
+        <th> Recomendación </th>
+        </tr>
+        <tr>
+        <td>Paisajistica</td>
+        <td>Fácil</td>
+        <td>3 días</td>
+        <td>Ruta por los Picos de Europa</td>
+        <td>Sin agencia</td>
+        <td>Pueden ir todos los publicos ya que es una ruta con autocaravana</td>
+        <td>Oseja de Sajambre</td>
+        <td>Oseja de Sajambre, 24916, León </td>
+        <td>longitud=-5.0388745   latitud=43.1369687   altitud=754</td>
+        <td><a href ="https://blog.yescapa.es/blog/2017/08/03/picos-de-europa-en-autocaravana-pura-naturaleza/"> Referencia 1 </a>
+         <a href ="https://www.vvelascocorreduria.es/blog/2018/03/12/los-picos-de-europa-en-autocaravana/"> Referencia 2 </a>
+         <a href ="https://www.lasprovincias.es/planes/viajes/rutas-espectaculares-viajar-20180809154054-nt.html?ref=https:%2F%2Fwww.google.com%2F"> Referencia 3 </a>
+         <td>8</td>
+        </tr>
+    </table> <h2>Hito 1: Posada de Valdeón</h2>
+    <table>
+        <tr>
+        <th> Descripción </th>
+        <th> Coordenadas </th>
+        <th> Distancia desde el hito anterior </th>
+        <th> Tiempo desde el hito anterior </th>
+        </tr>
+        <tr>
+        <td>"Hito 1". Como recomendación, es aconsejable pasar la noche en el área de autocaravanas.</td>
+        <td>longitud = -4.9189559   latitud = 43.1514682   altitud = 927 </td>
+        <td>26,4 kilometros</td>
+        <td>36 minutos</td>
+        </tr>
+    </table>
+    <section>
+        <h3> Imagen </h3>
+        <img id = "imagen1Hito1" src="https://media2.clubrural.com/img990x400/pueblos/leon/posada-de-valdeon/20151022121025-leon-posada-de-valdeon.jpg" alt ="foto hito 1"/>
+        <p></p>
+        <input type="button" id="imagenIndex" value="Situar en el mapa" onclick="documento.getMapaEstaticoOseja('oseja')">
+    
+        <div id="oseja"></div>
+        </section >
+        <h2>Hito 2:Lagos de Covadonga</h2>
+    <table>
+        <tr>
+        <th> Descripción </th>
+        <th> Coordenadas </th>
+        <th> Distancia desde el hito anterior </th>
+        <th> Tiempo desde el hito anterior </th>
+        </tr>
+        <tr>
+        <td>"Hito2". Por poseer gran riqueza natural- extensa flora y fauna- no es posible pernoctar aquí, pero cerca está Cangas de Onís, que es la última parada de la ruta, con el área de descanso de El Llerau (gratuito).</td>
+        <td>longitud = -4.9861479   latitud = 43.269921   altitud = 1134 </td>
+        <td>81,7 kilometros</td>
+        <td>2 h 2 min</td>
+        </tr>
+    </table>
+    <section>
+        <h3> Imagen </h3>
+        <img id = "imagen1Hito2" src="https://www.soloqueremosviajar.com/wp-content/uploads/2020/08/1200px-LAGOS_DE_COVADONGA_8.jpg" alt ="foto hito 2"/>
+        
+        <p></p>
+        <input type="button" id="img1" value="Situar en el mapa" onclick="documento.getMapaEstaticoPosada('posada')">
+        <div id="posada"></div>
+        </section >
+        <h2>Hito 3:Cangas de Onís</h2>
+    <table>
+        <tr>
+        <th> Descripción </th>
+        <th> Coordenadas </th>
+        <th> Distancia desde el hito anterior </th>
+        <th> Tiempo desde el hito anterior </th>
+        </tr>
+        <tr>
+        <td>"Hito 3 y final. Se encuentra en medio del valle que forman los ríos Gueña y Sella. Su puente romano, declarado Monumento Histórico Artístico en 1931, es de gran interés cultural.</td>
+        <td>longitud = -5.0656317   latitud = 43.3145292   altitud = 87 </td>
+        <td>21,6 kilometros</td>
+        <td>40 minutos</td>
+        </tr>
+    </table>
+    <section>
+        <h3> Imagen </h3>
+        <img id = "imagen1Hito3" src="https://www.turismoasturias.es/documents/11022/31821/cangas-de-onis.jpg/f29ed144-7513-4ac4-af70-944c15ba0a46?t=1572266110055" alt= "foto hito 3"/>
+        
+        <p></p>
+        <input type="button" id="img2" value="Situar en el mapa" onclick="documento.getMapaEstaticoCangas('cangas')">
+        <div id="cangas"></div>  
+        <p></p>  
+        <input type="button" id="img3" value="Mostrar mapa completo" onclick="documento.getMapaEstaticoTodas('todas')">
+        <div id="todas"></div>
+     </section >
+        
+       
+  
+            
+            
+           
+    
+
+</body>
+</html>
