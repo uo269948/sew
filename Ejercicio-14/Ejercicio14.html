@@ -12,7 +12,7 @@
 	<h2 id="soporta">Soporta el API File</h2>
 	<label for="file">Selecciona un archivo: </label>
     <input type="file" id="file" accept="image/*" onchange="editor.mostrar()"/>
-    <input type="button" id="fullScreen" value="Ver en pantalla completa" onClick="editor.fullscreen()"/>
+    <input type="button" id="fullScreen" value="Ver en pantalla completa" onkeypressed=editor.fullscreen() onClick="editor.fullscreen()"/>
     <input type="button" id="BlancoNegro" value="Ver en blanco y negro" onClick="editor.blancoYNegro()"/>
     <canvas id="canvas">Aquí se mostrará la imagen en blanco y negro
     </canvas>
