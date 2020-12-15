@@ -173,6 +173,23 @@
                             echo "<p>Si has realizado correctamente la tarea escriba sí. En caso contrario escriba no</p>";
                             return;
                         }
+                        if($_POST['textNivel']=="0" || $_POST['textNivel']=='1' || $_POST['textNivel']=='2' || $_POST['textNivel']=='3' || $_POST['textNivel']=='4' || $_POST['textNivel']=='5' || $_POST['textNivel']=='6' || $_POST['textNivel']=='7' || $_POST['textNivel']=='8' || $_POST['textNivel']=='9' || $_POST['textNivel']=='10'){
+                           
+                        }else{
+                             echo $_POST['textNivel'];
+                            echo "<p> El nivel introducido tiene que estar entre 0 y 10. Por favor vuelva a introducir los datos </p>";
+                            return;
+                        }
+                        if($_POST['textValoracion']=='0' || $_POST['textValoracion']=='1' || $_POST['textValoracion']=='2' || $_POST['textValoracion']=='3' || $_POST['textValoracion']=='4' || $_POST['textValoracion']=='5' || $_POST['textValoracion']=='6' || $_POST['textValoracion']=='7' || $_POST['textValoracion']=='8' || $_POST['textValoracion']=='9' || $_POST['textValoracion']=='10' ){
+                        }
+                        else{  
+                            echo "<p> La valoración introducida tiene que entar entre 0 y 10. Por favor vuelva a introducir los datos </p>";
+                            return;
+                        }
+                        if(is_numeric($_POST['textTiempo'])==false){
+                            echo "<p>El tiempo debe ser un número. Introduzcalo de nuevo</p>";
+                            return;
+                        }
                         $this->bd=new mysqli($this->serverName,$this->usuario,$this->contraseña,$this->bdName);
 
                         if($this->bd->connect_error){
@@ -273,6 +290,23 @@
                         }
                         if ($_POST['textModificarTarea'] != "" && strcasecmp($_POST['textModificarTarea'],"sí")!=0 && strcasecmp($_POST['textModificarTarea'],"si")!=0 && strcasecmp($_POST['textModificarTarea'],"no")!=0) {
                             echo "<p>Si has realizado correctamente la tarea escriba sí. En caso contrario escriba no</p>";
+                            return;
+                        }
+                        if($_POST['textModificarNivel']=="0" || $_POST['textModificarNivel']=='1' || $_POST['textModificarNivel']=='2' || $_POST['textModificarNivel']=='3' || $_POST['textModificarNivel']=='4' || $_POST['textModificarNivel']=='5' || $_POST['textModificarNivel']=='6' || $_POST['textModificarNivel']=='7' || $_POST['textModificarNivel']=='8' || $_POST['textModificarNivel']=='9' || $_POST['textModificarNivel']=='10'){
+                           
+                        }else{
+                            
+                            echo "<p> El nivel introducido tiene que estar entre 0 y 10. Por favor vuelva a introducir los datos </p>";
+                            return;
+                        }
+                        if($_POST['textModificarValoracion']=='0' || $_POST['textModificarValoracion']=='1' || $_POST['textModificarValoracion']=='2' || $_POST['textModificarValoracion']=='3' || $_POST['textModificarValoracion']=='4' || $_POST['textModificarValoracion']=='5' || $_POST['textModificarValoracion']=='6' || $_POST['textModificarValoracion']=='7' || $_POST['textModificarValoracion']=='8' || $_POST['textModificarValoracion']=='9' || $_POST['textModificarValoracion']=='10' ){
+                        }
+                        else{  
+                            echo "<p> La valoración introducida tiene que entar entre 0 y 10. Por favor vuelva a introducir los datos </p>";
+                            return;
+                        }
+                        if(is_numeric($_POST['textModificarTiempo'])==false){
+                            echo "<p>El tiempo debe ser un número. Introduzcalo de nuevo</p>";
                             return;
                         }
                         
@@ -665,19 +699,19 @@
 
 
                     <form action='#' method='post' name='baseDatos'>
-                    <a name='ancla-1'></a>
+                    <a id='ancla-1'></a>
                     <section>
                     <h2>Crear BD</h2>
                     <input type='submit' id='crearBD' name='btnCrearBD' value='Crear BD' />
                     </section>
 
-                    <a name='ancla-2'></a>
+                    <a id='ancla-2'></a>
                     <section>
                     <h2>Crear tabla</h2>
                     <input type='submit' id='crearTabla' name='btnCrearTabla' value='Crear tabla PruebasUsabilidad' />
                     </section>
 
-                    <a name='ancla-3'></a>
+                    <a id='ancla-3'></a>
                     <section>
                     <h2>Insertar datos en la tabla</h2>
 
@@ -737,7 +771,7 @@
                 
 
 
-                    <a name='ancla-4'></a>
+                    <a id='ancla-4'></a>
                     <section>
                     <h2>Buscar datos de tabla</h2>
                     <label for='textBuscarDNI'>Busqueda por DNI: </label>
@@ -745,7 +779,7 @@
                     <input type='submit' id='buscarDatos' name='btnBuscarDatos' value='Buscar' />
                     </section>
 
-                    <a name='ancla-5'></a>
+                    <a id='ancla-5'></a>
                     <section>
                     <h2>Modificar datos de tabla</h2>
                     <label for='textModificarDNI'>DNI: </label>
@@ -804,7 +838,7 @@
                     <p></p>
                     </section>
 
-                    <a name='ancla-6'></a>
+                    <a id='ancla-6'></a>
                     <section>
                     <h2>Eliminar datos de tabla</h2>
                     <label for='textDNIEliminar'>DNI: </label>
@@ -812,19 +846,19 @@
                     <input type='submit' id='eliminarDatos' name='btnEliminar' value='Eliminar' />
                     </section>
 
-                    <a name='ancla-7'></a>
+                    <a id='ancla-7'></a>
                     <section>
                     <h2>Informe</h2>
                     <input type='submit' id='generarInforme' name='btnGenerarInforme' value='Generar' />
                     </section>
 
-                    <a name='ancla-8'></a>
+                    <a id='ancla-8'></a>
                     <section>
                     <h2>Cargar datos desde archivo en la tabla</h2>
                     <input type='submit' id='cargarDatos' name='btnCargarDatos' value='Cargar' />
                     </section>
                     
-                    <a name='ancla-9'></a>
+                    <a id='ancla-9'></a>
                     <section>
                     <h2>Exportar datos de tabla a archivo</h2>
                     <input type='submit' id='exportarDatos' name='btnExportarDatos' value='Exportar' />
