@@ -599,7 +599,7 @@
                         $this->bd->close();
                         
                         try {
-                            $archivo = fopen("datos.csv","w"); 
+                            $archivo = fopen("datosUsabilidad.csv","w"); 
                             $campos = array('DNI', 'Nombre', 'Apellidos', 'Email', 'Telefono', 'Edad', 'Sexo', 'Nivel', 'Tiempo', 'Correcto', 'Comentarios', 'Propuestas', 'Valoracion');
                             fputcsv($archivo, $campos, ";");
                             if ($res->fetch_assoc()!=NULL) {
@@ -709,6 +709,7 @@
 
                     <a id='ancla-2'></a>
                     <section>
+                    <p>Acuerdate también de hacer esto</p>
                     <h2>Crear tabla</h2>
                     <input type='submit' id='crearTabla' name='btnCrearTabla' value='Crear tabla PruebasUsabilidad' />
                     </section>
@@ -843,6 +844,7 @@
                     <a id='ancla-6'></a>
                     <section>
                     <h2>Eliminar datos de tabla</h2>
+                    <p>Introducir dni a eliminar</p>
                     <label for='textDNIEliminar'>DNI: </label>
                     <input type='text' id='textDNIEliminar' name='textDNIEliminar' placeholder='Introduce DNI...' value='$baseDatos->dniEliminar'/>
                     <input type='submit' id='eliminarDatos' name='btnEliminar' value='Eliminar' />
@@ -850,8 +852,8 @@
 
                     <a id='ancla-7'></a>
                     <section>
-                    <p></p>
                     <h2>Informe</h2>
+                    <p>Alguna información relevante</p>
                     <input type='submit' id='generarInforme' name='btnGenerarInforme' value='Generar' />
                     </section>
 
@@ -859,6 +861,7 @@
                     <section>
                     <p></p>
                     <h2>Cargar datos desde archivo en la tabla</h2>
+                    <p>Desde el archivo pruebasUsabilidad</p>
                     <input type='submit' id='cargarDatos' name='btnCargarDatos' value='Cargar' />
                     </section>
                     
@@ -866,6 +869,7 @@
                     <section>
                     <p></p>
                     <h2>Exportar datos de tabla a archivo</h2>
+                    <p>Al archivo datosUsabilidad</p>
                     <input type='submit' id='exportarDatos' name='btnExportarDatos' value='Exportar' />
                     </section>
                     
