@@ -701,16 +701,18 @@
                     <form action='#' method='post' name='baseDatos'>
                     <a id='ancla-1'></a>
                     <section>
-                    <p>Esto es lo primero que debes hacer</p>
+                    
                     <h2>Crear BD</h2>
+                    <p>Esto es lo primero que debes hacer</p>
                     <input type='submit' id='crearBD' name='btnCrearBD' value='Crear BD' />
                    
                     </section>
 
                     <a id='ancla-2'></a>
                     <section>
-                    <p>Acuerdate también de hacer esto</p>
+                    
                     <h2>Crear tabla</h2>
+                    <p>Acuerdate también de hacer esto</p>
                     <input type='submit' id='crearTabla' name='btnCrearTabla' value='Crear tabla PruebasUsabilidad' />
                     </section>
 
