@@ -1,27 +1,23 @@
 <!DOCTYPE html>
-<!-- saved from url=(0040)http://localhost/SEW/CalculadoraRPN.php# -->
+<!-- saved from url=(0043)http://localhost/SEW/CalculadoraBasica.php# -->
 <html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-    <title>Ejercicio3</title>
-    <link rel="stylesheet" href="./Ejercicio3_files/CalculadoraRPN.css">
+    <title>Calculadora básica</title>
+    <link rel="stylesheet" href="./Ejercicio1_files/CalculadoraBasica.css">
 </head>
 <body>
     <header>
-        <h1>Calculadora RPN</h1>
+        <h1>Calculadora básica</h1>
     </header>
     <main>
         
-                <form action="http://localhost/SEW/CalculadoraRPN.php#" method="post" name="calculadora">
-                    <label for="pantalla">No visible</label>
-                    <textarea id="pantalla" readonly=""> 2 </textarea>
-					
+                <form action="http://localhost/SEW/CalculadoraBasica.php#" method="post" name="calculadora">
+                <input type="text" id="pantalla" title="Pantalla" value="2/2" disabled="">
 					<p>
-					<input type="submit" class="operation" name="sin" value="sin">
-					<input type="submit" class="operation" name="cos" value="cos">
-					<input type="submit" class="operation" name="tan" value="tan">
-					
-					<input type="submit" class="operation" name="div" value="/">
-
+                    <input type="submit" class="memory" name="mrc" value="mrc">
+                    <input type="submit" class="memory" name="m-" value="m-">
+                    <input type="submit" class="memory" name="m+" value="m+">
+                    <input type="submit" class="operation" name="div" value="/">
 					</p>
 					<p>
                     <input type="submit" class="number" name="7" value="7">
@@ -42,10 +38,9 @@
                     <input type="submit" class="operation" name="sum" value="+">
 					</p>
 					<p>
-					
                     <input type="submit" class="number" name="0" value="0">
                     <input type="submit" class="number" name="punto" value=".">
-                    <input type="submit" class="operation" name="clean" value="C">
+                    <input type="submit" class="operation" name="borrar" value="C">
                     <input type="submit" class="operation" name="igual" value="=">
 					</p>
                 </form>

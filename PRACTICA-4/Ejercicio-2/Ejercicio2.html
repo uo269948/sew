@@ -1,25 +1,45 @@
 <!DOCTYPE html>
-<!-- saved from url=(0040)http://localhost/SEW/CalculadoraRPN.php# -->
+<!-- saved from url=(0047)http://localhost/SEW/CalculadoraCientifica.php# -->
 <html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
-    <title>Ejercicio3</title>
-    <link rel="stylesheet" href="./Ejercicio3_files/CalculadoraRPN.css">
+    <title>Ejercicio2</title>
+    <link rel="stylesheet" href="./Ejercicio2_files/CalculadoraCientifica.css">
 </head>
 <body>
     <header>
-        <h1>Calculadora RPN</h1>
+        <h1>Calculadora cientifica</h1>
     </header>
     <main>
         
-                <form action="http://localhost/SEW/CalculadoraRPN.php#" method="post" name="calculadora">
-                    <label for="pantalla">No visible</label>
-                    <textarea id="pantalla" readonly=""> 2 </textarea>
+                <form action="http://localhost/SEW/CalculadoraCientifica.php#" method="post" name="calculadora">
+                    <input type="text" id="pantalla" title="Pantalla" value="2.2360679774998" disabled="">
+					<p>
+                    <input type="submit" class="operation" name="potencia2" value="x²">
+                    <input type="submit" class="operation" name="potencia10" value="10^x">
+                    <input type="submit" class="operation" name="potencia" value="x^y">
+                    <input type="submit" class="operation" name="e" value="e">
+					<input type="submit" class="operation" name="log" value="log">
 					
+					</p>
 					<p>
 					<input type="submit" class="operation" name="sin" value="sin">
 					<input type="submit" class="operation" name="cos" value="cos">
 					<input type="submit" class="operation" name="tan" value="tan">
+					<input type="submit" class="operation" name="raiz" value="√">
+					<input type="submit" class="operation" name="Exp" value="Exp">
+					</p>
 					
+					<p>
+					<input type="submit" class="operation" name="arcsin" value="arcsin">
+					<input type="submit" class="operation" name="arccos" value="arccos">
+					<input type="submit" class="operation" name="arctan" value="arctan">
+					<input type="submit" class="operation" name="limpiarPantalla" value="↑">
+
+					</p>
+					<p>
+					<input type="submit" class="operation" name="ln" value="ln">
+					<input type="submit" class="operation" name="C" value="C">
+					<input type="submit" class="operation" name="clean" value="←">
 					<input type="submit" class="operation" name="div" value="/">
 
 					</p>
@@ -42,10 +62,9 @@
                     <input type="submit" class="operation" name="sum" value="+">
 					</p>
 					<p>
-					
+					<input type="submit" class="operation" name="pi" value="Π">
                     <input type="submit" class="number" name="0" value="0">
                     <input type="submit" class="number" name="punto" value=".">
-                    <input type="submit" class="operation" name="clean" value="C">
                     <input type="submit" class="operation" name="igual" value="=">
 					</p>
                 </form>

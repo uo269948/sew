@@ -11,7 +11,7 @@
     </header>
     <main>
         <?php
-        session_name("prueba13");
+        session_name("prueba16");
           session_start();
 
             class CalculadoraBasica {
@@ -50,11 +50,12 @@
                 }
 
                 function resultado() {
+                    error_reporting(E_ERROR | E_PARSE);
                    try {
                         $this->pantalla = eval("return $this->pantalla ;");
                     } 
 					
-					catch (Throwable $e) {
+					catch (ParseError $e) {
                        $this->pantalla = "Fallo: " .$e->getMessage();
                     }
 					

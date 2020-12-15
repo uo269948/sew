@@ -11,7 +11,7 @@
     </header>
     <main>
         <?php
-        session_name("prueba7");
+        session_name("prueba11");
           session_start();
 
             class CalculadoraBasica {
@@ -116,7 +116,7 @@
                     else{
                         $this->conc .= $this->numero;
                         $this->numero = "";
-                        $this->pantalla = eval("return $this->conc") . "-";
+                        $this->pantalla = eval("return $this->conc;") . "-";
                         $this->conc = $this->pantalla;
                         $this->operacion=1;
                         $this->igual=0;
@@ -139,7 +139,7 @@
                     else{
                         $this->conc .= $this->numero;
                         $this->numero = "";
-                        $this->pantalla = eval("return $this->conc") . "*";
+                        $this->pantalla = eval("return $this->conc;") . "*";
                         $this->conc = $this->pantalla;
                         $this->operacion=1;
                         $this->igual=0;
@@ -162,7 +162,7 @@
                     else{
                         $this->conc .= $this->numero;
                         $this->numero = "";
-                        $this->pantalla = eval("return $this->conc") . "/";
+                        $this->pantalla = eval("return $this->conc;") . "/";
                         $this->conc = $this->pantalla;
                         $this->operacion=1;
                         $this->igual=0;
@@ -451,6 +451,7 @@
                 }
 
                 public function igual() {
+                    error_reporting(E_ERROR | E_PARSE);
                    try {
                         $this->pantalla = eval("return $this->pantalla;");
                         $this->conc = $this->pantalla;
@@ -458,7 +459,7 @@
                         $this->igual = 1;
                     } 
 					
-					catch (Throwable $e) {
+					catch (ParseError $e) {
                        $this->pantalla = "Operacion no correcta";
                     }
 					
@@ -568,7 +569,7 @@
 					<input type='submit' class='operation' name='ln' value='ln' />
 					<input type='submit' class='operation' name='C' value='C' />
 					<input type='submit' class='operation' name='clean' value='&larr;' />
-					<input type='submit' class='operation' name='div' value='&uarr;' />
+					<input type='submit' class='operation' name='div' value='/' />
 
 					</p>
 					<p>

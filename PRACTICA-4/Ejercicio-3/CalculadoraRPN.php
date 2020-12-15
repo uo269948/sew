@@ -11,7 +11,7 @@
     </header>
     <main>
         <?php
-        session_name("prueba36");
+        session_name("prueba39");
           session_start();
 
             class CalculadoraRPN {
@@ -379,7 +379,7 @@
 					<input type='submit' class='operation' name='cos' value='cos' />
 					<input type='submit' class='operation' name='tan' value='tan' />
 					
-					<input type='submit' class='operation' name='div' value='&uarr;' />
+					<input type='submit' class='operation' name='div' value='/' />
 
 					</p>
 					<p>
