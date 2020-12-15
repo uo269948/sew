@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)http://localhost/SEW/Ejercicio6/Ejercicio6.php#ancla-3 -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Ejercicio6</title>
+    <link rel="stylesheet" href="./Ejercicio6-insertar1_files/Ejercicio6.css">
+</head>
+<body>
+    <header>
+        <h1>Ejercicio6</h1>
+
+    </header>
+    <p>Conexion establecida con localhost via TCP/IP</p><p>Base de datos 'BD' creada con éxito</p>
+                    
+
+                    <nav class="menu">
+                        <div class="topnav">
+                            <a href="http://localhost/SEW/Ejercicio6/Ejercicio6.php#ancla-1">Crear BD</a>
+                            <a href="http://localhost/SEW/Ejercicio6/Ejercicio6.php#ancla-2">Crear tabla</a>
+                            <a href="http://localhost/SEW/Ejercicio6/Ejercicio6.php#ancla-3">Insertar datos</a>
+                            <a href="http://localhost/SEW/Ejercicio6/Ejercicio6.php#ancla-4">Buscar datos</a>
+                            <a href="http://localhost/SEW/Ejercicio6/Ejercicio6.php#ancla-5">Modificar datos</a>
+                            <a href="http://localhost/SEW/Ejercicio6/Ejercicio6.php#ancla-6">Eliminar datos</a>
+                            <a href="http://localhost/SEW/Ejercicio6/Ejercicio6.php#ancla-7">Generar informe</a>
+                            <a href="http://localhost/SEW/Ejercicio6/Ejercicio6.php#ancla-8">Cargar datos desde archivo</a>
+                            <a href="http://localhost/SEW/Ejercicio6/Ejercicio6.php#ancla-9">Exportar datos a archivo</a>
+                        </div>
+                    </nav>
+                    <p></p>
+
+
+                    <form action="http://localhost/SEW/Ejercicio6/Ejercicio6.php#" method="post" name="baseDatos">
+                    <a name="ancla-1"></a>
+                    <section>
+                    <h2>Crear BD</h2>
+                    <input type="submit" id="crearBD" name="btnCrearBD" value="Crear BD">
+                    </section>
+
+                    <a name="ancla-2"></a>
+                    <section>
+                    <h2>Crear tabla</h2>
+                    <input type="submit" id="crearTabla" name="btnCrearTabla" value="Crear tabla PruebasUsabilidad">
+                    </section>
+
+                    <a name="ancla-3"></a>
+                    <section>
+                    <h2>Insertar datos en la tabla</h2>
+
+                    <label for="textDNI">DNI *:</label>
+                    <input type="text" class="textDNI" id="textDNI" name="textDNI" placeholder="Introduce DNI...">
+                    <p></p>
+
+                    <label for="textNombre">Nombre *: </label>
+                    <input type="text" class="littleInput" id="textNombre" name="textNombre" placeholder="Introduce nombre..." value="">
+                    <p></p>
+
+                    <label for="textApellidos">Apellidos *: </label>
+                    <input type="text" class="littleInput" id="textApellidos" name="textApellidos" placeholder="Introduce apellidos..." value="">
+                    <p></p>
+
+                    <label for="textEmail">E-mail *: </label>
+                    <input type="text" class="littleInput" id="textEmail" name="textEmail" placeholder="Introduce e-mail..." value="">
+                    <p></p>
+
+                    <label for="textTelefono">Teléfono *: </label>
+                    <input type="text" class="littleInput" id="textTelefono" name="textTelefono" placeholder="Introduce teléfono..." value="">
+                    <p></p>
+
+                    <label for="textEdad">Edad *: </label>
+                    <input type="text" class="littleInput" id="textEdad" name="textEdad" placeholder="Introduce edad..." value="">
+                    <p></p>
+
+                    <label for="textSexo">Sexo *: </label>
+                    <input type="text" class="littleInput" id="textSexo" name="textSexo" placeholder="Introduce sexo (Hombre=H Mujer=M)" value="">
+                    <p></p>
+
+                    <label for="textNivel">Nivel informático *: </label>
+                    <input type="text" class="littleInput" id="textNivel" name="textNivel" placeholder="Introduce nivel ( 0 a 10)" value="">
+                    <p></p>
+
+                    <label for="textTiempo">Tiempo empleado *: </label>
+                    <input type="text" class="littleInput" id="textTiempo" name="textTiempo" placeholder="Introduce tiempo en segundos..." value="">
+                    <p></p>
+
+                    <label for="textTarea">¿Tarea realizada correctamente? *: </label>
+                    <input type="text" class="littleInput" id="textTarea" name="textTarea" placeholder="Sí o no" value="">
+                    <p></p>
+
+                    <label for="textComentarios">Comentarios: </label>
+                    <input type="text" class="bigInput" id="textComentarios" name="textComentarios" placeholder="Introduce comentarios..." value="">
+                    <p></p>
+
+                    <label for="textPropuestas">Propuestas: </label>
+                    <input type="text" class="bigInput" id="textPropuestas" name="textPropuestas" placeholder="Introduce propuestas..." value="">
+                    <p></p>
+
+                    <label for="textValoracion">Valoración aplicación *: </label>
+                    <input type="text" class="littleInput" id="textValoracion" name="textValoracion" placeholder="Introduce valoración( 0 a 10 )" value="">
+                    <p></p>
+                    <input type="submit" id="insertarDatos" name="btnInsertarDatos" value="Insertar">
+                    </section>
+                
+
+
+                    <a name="ancla-4"></a>
+                    <section>
+                    <h2>Buscar datos de tabla</h2>
+                    <label for="textBuscarDNI">Busqueda por DNI: </label>
+                    <input type="text" class="littleInput" id="textBuscarDNI" name="textBuscarDNI" placeholder="Introduce DNI..." value="">
+                    <input type="submit" id="buscarDatos" name="btnBuscarDatos" value="Buscar">
+                    </section>
+
+                    <a name="ancla-5"></a>
+                    <section>
+                    <h2>Modificar datos de tabla</h2>
+                    <label for="textModificarDNI">DNI: </label>
+                    <input type="text" class="littleInput" id="textModificarDNI" name="textModificarDNI" placeholder="Inserta DNI..." value="">
+                    <p></p>
+
+                    <label for="textModificarNombre">Nombre: </label>
+                    <input type="text" class="littleInput" id="textModificarNombre" name="textModificarNombre" placeholder="Inserta nuevo nombre..." value="">
+                    <p></p>
+
+                    <label for="textModificarApellidos">Apellidos: </label>
+                    <input type="text" class="littleInput" id="textModificarApellidos" name="textModificarApellidos" placeholder="Inserta nuevos apellidos..." value="">
+                    <p></p>
+
+                    <label for="textModificarEmail">E-mail: </label>
+                    <input type="text" class="littleInput" id="textModificarEmail" name="textModificarEmail" placeholder="Inserta nuevo e-mail..." value="">
+                    <p></p>
+
+                    <label for="textModificarTelefono">Teléfono: </label>
+                    <input type="text" class="littleInput" id="textModificarTelefono" name="textModificarTelefono" placeholder="Inserta nuevo teléfono..." value="">
+                    <p></p>
+
+                    <label for="textModificarEdad">Edad: </label>
+                    <input type="text" class="littleInput" id="textModificarEdad" name="textModificarEdad" placeholder="Inserta nueva edad..." value="">
+                    <p></p>
+
+                    <label for="textModificarSexo">Sexo: </label>
+                    <input type="text" class="littleInput" id="textModificarSexo" name="textModificarSexo" placeholder="Inserta (Hombre=H || Mujer=M)" value="">
+                    <p></p>
+
+                    <label for="textModificarNivel">Nivel informático: </label>
+                    <input type="text" class="littleInput" id="textModificarNivel" name="textModificarNivel" placeholder="Inserta (0 a 10)" value="">
+                    <p></p>
+
+                    <label for="textModificarTiempo">Tiempo empleado: </label>
+                    <input type="text" class="littleInput" id="textModificarTiempo" name="textModificarTiempo" placeholder="Inserta nuevo tiempo en segundos..." value="">
+                    <p></p>
+
+                    <label for="textModificarTarea">¿La tarea se ha realizado correctamente?: </label>
+                    <input type="text" class="littleInput" id="textModificarTarea" name="textModificarTarea" placeholder="Inserta sí o no..." value="">
+                    <p></p>
+
+                    <label for="textModificarComentarios">Comentarios: </label>
+                    <input type="text" class="bigInput" id="textModificarComentarios" name="textModificarComentarios" placeholder="Inserta nuevos comentarios..." value="">
+                    <p></p>
+
+                    <label for="textModificarPropuestas">Propuestas: </label>
+                    <input type="text" class="bigInput" id="textModificarPropuestas" name="textModificarPropuestas" placeholder="Inserta nuevas propuestas..." value="">
+                    <p></p>
+
+                    <label for="textModificarValoracion">Valoración aplicación: </label>
+                    <input type="text" class="littleInput" id="textModificarValoracion" name="textModificarValoracion" placeholder="Inserta (0 a 10)..." value="">
+                    <p></p>
+
+                    <input type="submit" id="modificarDatos" name="btnModificarDatos" value="Modificar">
+                    <p></p>
+                    </section>
+
+                    <a name="ancla-6"></a>
+                    <section>
+                    <h2>Eliminar datos de tabla</h2>
+                    <label for="textDNIEliminar">DNI: </label>
+                    <input type="text" class="littleInput" id="textDNIEliminar" name="textDNIEliminar" placeholder="Introduce DNI..." value="">
+                    <input type="submit" id="eliminarDatos" name="btnEliminar" value="Eliminar">
+                    </section>
+
+                    <a name="ancla-7"></a>
+                    <section>
+                    <h2>Informe</h2>
+                    <input type="submit" id="generarInforme" name="btnGenerarInforme" value="Generar">
+                    </section>
+
+                    <a name="ancla-8"></a>
+                    <section>
+                    <h2>Cargar datos desde archivo en la tabla</h2>
+                    <input type="submit" id="cargarDatos" name="btnCargarDatos" value="Cargar">
+                    </section>
+                    
+                    <a name="ancla-9"></a>
+                    <section>
+                    <h2>Exportar datos de tabla a archivo</h2>
+                    <input type="submit" id="exportarDatos" name="btnExportarDatos" value="Exportar">
+                    </section>
+                    
+
+                </form>  
+            
+
+
+    
+
+</body></html>

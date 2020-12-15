@@ -1,0 +1,12 @@
+DNI;Nombre;Apellidos;Email;Telefono;Edad;Sexo;Nivel;Tiempo;Correcto;Comentarios;Propuestas;Valoracion
+1;Candela;BobesJunquera;candebobes000@gmail.com;+34684609378;19;m;0;6;si;hola;nada;7
+﻿DNI1;nombre1;apellidos1;email1;1;20;H;0;50;si;comentario;;0
+DNI10;nombre10;apellidos10;email10;10;65;M;6;15;no;;propuesta;3
+DNI2;nombre2;apellidos2;email2;2;25;H;10;60;no;;propuesta;1
+DNI3;nombre3;apellidos3;email3;3;30;H;5;30;si;comentario;propuesta;2
+DNI4;nombre4;apellidos4;email4;4;35;H;7;80;no;;;7
+DNI5;nombre5;apellidos5;email5;5;40;H;3;70;si;comentario;;9
+DNI6;nombre6;apellidos6;email6;6;45;M;9;90;no;;propuesta;4
+DNI7;nombre7;apellidos7;email7;7;50;M;2;55;si;comentario;propuesta;6
+DNI8;nombre8;apellidos8;email8;8;55;M;4;20;no;;;8
+DNI9;nombre9;apellidos9;email9;9;60;M;8;110;si;comentario;;5
