@@ -423,7 +423,7 @@
                             echo '<p>Error de conexión: ' . $this->bd->connect_error . '</p>';
                         }
                         else{
-                            echo '<p>Conexion establecida con ' . $this->bd->host_info . '</p>';
+                           
                         }
                         try{
                            
@@ -436,12 +436,11 @@
                                     
                                     $res->data_seek(0);
                                     while($fila = $res->fetch_assoc()) {
-                                        echo "<p>ID = " . $fila['idInscripcion'] . "</p>";
-                                        echo "<p>DNI = " . $fila['dni'] . "</p>";
-                                        echo "<p>--------------------------------</p>";
+                                        echo "<p>ID = " . $fila['idInscripcion'] . " DNI = " . $fila['dni'] . "</p>";
+                                        echo "<p> --------------------------------</p>";
                                     }
                                        
-                                } else {
+                                } else { 
                                     echo "<p>No hay resultados</p>";
                                 }
                                 $consultaPre->close();
