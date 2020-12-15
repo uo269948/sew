@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://localhost/SEW/Ejercicio7/Ejercicio7.php# -->
+<html lang="es"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Ejercicio7</title>
+    <link rel="stylesheet" href="./Ejercicio7_files/Ejercicio7.css">
+</head>
+<body>
+    <header>
+        <h1>Carreras</h1>
+
+    </header>
+    <p>Conexion establecida con localhost via TCP/IP</p><p>Participantes inscritos en la carrera:</p><p>ID = 10</p><p>DNI = 1</p><p>--------------------------------</p><p>ID = 20</p><p>DNI = 2</p><p>--------------------------------</p><p>ID = 30</p><p>DNI = 3</p><p>--------------------------------</p><p>ID = 40</p><p>DNI = 4</p><p>--------------------------------</p><p>ID = 50</p><p>DNI = 5</p><p>--------------------------------</p><p>ID = 60</p><p>DNI = 6</p><p>--------------------------------</p><p>ID = 70</p><p>DNI = 7</p><p>--------------------------------</p><p>ID = 80</p><p>DNI = 8</p><p>--------------------------------</p><p>ID = 90</p><p>DNI = 9</p><p>--------------------------------</p><p>ID = 100</p><p>DNI = 10</p><p>--------------------------------</p><p>ID = 1</p><p>DNI = 71736753Y</p><p>--------------------------------</p>
+            <nav class="menu">
+            <div class="topnav">
+                <a href="http://localhost/SEW/Ejercicio7/Ejercicio7.php#ancla-1">Crear BD</a>
+                <a href="http://localhost/SEW/Ejercicio7/Ejercicio7.php#ancla-2">Crear tablas</a>
+                <a href="http://localhost/SEW/Ejercicio7/Ejercicio7.php#ancla-3">Insertar participante</a>
+                <a href="http://localhost/SEW/Ejercicio7/Ejercicio7.php#ancla-4">Buscar participante</a>
+                <a href="http://localhost/SEW/Ejercicio7/Ejercicio7.php#ancla-5">Insertar inscripcion</a>
+                
+                <a href="http://localhost/SEW/Ejercicio7/Ejercicio7.php#ancla-6">Buscar inscripcion</a>
+                <a href="http://localhost/SEW/Ejercicio7/Ejercicio7.php#ancla-7">Insertar competicion</a>
+                <a href="http://localhost/SEW/Ejercicio7/Ejercicio7.php#ancla-8">Mostrar todos los participantes inscritos en la carrera</a>
+                <a href="http://localhost/SEW/Ejercicio7/Ejercicio7.php#ancla-9">Cargar datos desde archivo</a>
+                <a href="http://localhost/SEW/Ejercicio7/Ejercicio7.php#ancla-10">Exportar datos a archivo</a>
+            </div>
+            </nav>
+             <p></p>
+                <form action="http://localhost/SEW/Ejercicio7/Ejercicio7.php#" method="post" name="baseDatos">
+                    
+
+                    <a id="ancla-1"></a>
+                    <section>
+                    <h2>Crear BD</h2>
+                    <p>Esto es lo primero que debes hacer</p>
+                    <input type="submit" id="crearBD" name="btnCrearBD" value="Crear BD">
+                    </section>
+
+                    <a id="ancla-2"></a>
+                    <section>
+                    <h2>Crear tabla</h2>
+                    <p>Acuerdate también de hacer esto</p>
+                    <input type="submit" id="crearTabla" name="btnCrearTabla" value="Crear tablas">
+                    </section>
+
+                    <a id="ancla-3"></a>
+                    <section>
+                    <h2>Insertar participante</h2>
+
+                    <label for="dni">DNI*:</label>
+                    <input type="text" id="dni" name="dni" placeholder="Introduce DNI...">
+                    <p></p>
+
+                    <label for="nombre">Nombre*: </label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Introduce nombre..." value="">
+                    <p></p>
+
+                    
+                    <input type="submit" id="insertarDatos" name="btnInsertarDatos" value="Insertar">
+                    </section>
+                    
+
+                    
+                
+
+
+                    <a id="ancla-4"></a>
+                    <section>
+                    <h2>Buscar participante</h2>
+                    <p>Por dni</p>
+                    <label for="textBuscarDNI">DNI: </label>
+                    <input type="text" id="textBuscarDNI" name="textBuscarDNI" placeholder="Introduce DNI..." value="">
+                    <input type="submit" id="buscarDatos" name="btnBuscarDatos" value="Buscar">
+                    </section>
+
+                    <a id="ancla-5"></a>
+                    <section>
+                    <h2>Insertar inscripcion</h2>
+                    <label for="id">Identificador*: </label>
+                    <input type="text" id="id" name="id" placeholder="Inserta ID...">
+                    <p></p>
+
+                    <label for="precio">Precio*: </label>
+                    <input type="text" id="precio" name="precio" placeholder="Inserta precio...">
+                    <p></p>
+
+                    
+
+                    <input type="submit" id="btnInsertarInscripcion" name="btnInsertarInscripcion" value="Insertar">
+                    <p></p>
+                    </section>
+
+
+
+
+                    <a id="ancla-6"></a>
+                    <section>
+                    <h2>Buscar inscripcion</h2>
+                    <p>Por id</p>
+                    <label for="textBuscarID">Identificador: </label>
+                    <input type="text" id="textBuscarID" name="textBuscarID" placeholder="Introduce ID..." value="">
+                    <input type="submit" id="buscarID" name="btnBuscarID" value="Buscar">
+                    </section>
+
+                    <a id="ancla-7"></a>
+                    <section>
+                    <h2>Crear competicion con participante e inscripcion</h2>
+                    <label for="idI">Identificador inscripcion*: </label>
+                    <input type="text" id="idI" name="idI" placeholder="Inserta ID inscripcion...">
+                    <p></p>
+
+                    <label for="dniP">DNI*: </label>
+                    <input type="text" id="dniP" name="dniP" placeholder="Inserta DNI participante...">
+                    <p></p>
+                    <input type="submit" id="btnInsertarCompeticion" name="btnInsertarCompeticion" value="Insertar">
+                    <p></p>
+                    </section>
+
+
+                    <a id="ancla-8"></a>
+                    <section>
+                    <h2>Informe</h2>
+                    <p>Alguna información relevante</p>
+                    <input type="submit" id="generarInforme" name="btnGenerarInforme" value="Generar">
+                    </section>
+
+                    <a id="ancla-9"></a>
+                    <section>
+                    <h2>Cargar datos desde archivo en la tabla</h2>
+                    <p>Desde 3 archivos diferentes</p>
+                    <input type="submit" id="cargarDatos" name="btnCargarDatos" value="Cargar">
+                    </section>
+                    
+                    <a id="ancla-10"></a>
+                    <section>
+                    <h2>Exportar datos de tabla a archivo</h2>
+                    <p>Al archivo datosCompeticion</p>
+                    <input type="submit" id="exportarDatos" name="btnExportarDatos" value="Exportar">
+                    </section>
+                    
+
+                </form>  
+            
+
+
+    
+
+</body></html>
