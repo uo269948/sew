@@ -19,9 +19,9 @@ body {
   }
     /*(0,0,1) */
   label{
-    color: black;
+    color: white;
     background-color:inherit;
-    padding: 15px 15px;
+    padding: 10px 10px;
     text-align: center; 
     font-size: 23px;
   }
@@ -190,4 +190,16 @@ input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
 #img1{
     height: 25px;
     width: 25px;
+}
+/*(0,0,1) */
+form {
+  width: 100%;
+  max-width: 500px;
+  
+  text-align: center;
+  border: solid 1px silver;
+  padding-bottom: 10px;
+  margin: auto;
+  background: white;
+  color: inherit;
 }
