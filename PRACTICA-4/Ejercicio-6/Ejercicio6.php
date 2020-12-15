@@ -701,8 +701,10 @@
                     <form action='#' method='post' name='baseDatos'>
                     <a id='ancla-1'></a>
                     <section>
+                    <p>Esto es lo primero que debes hacer</p>
                     <h2>Crear BD</h2>
                     <input type='submit' id='crearBD' name='btnCrearBD' value='Crear BD' />
+                   
                     </section>
 
                     <a id='ancla-2'></a>
@@ -716,55 +718,55 @@
                     <h2>Insertar datos en la tabla</h2>
 
                     <label for='textDNI'>DNI *:</label>
-                    <input type='text' class='textDNI' id='textDNI' name='textDNI' placeholder='Introduce DNI...' />
+                    <input type='text' id='textDNI' name='textDNI' placeholder='Introduce DNI...' />
                     <p></p>
 
                     <label for='textNombre'>Nombre *: </label>
-                    <input type='text' class='littleInput' id='textNombre' name='textNombre' placeholder='Introduce nombre...' value= '$baseDatos->nombre'/>
+                    <input type='text' id='textNombre' name='textNombre' placeholder='Introduce nombre...' value= '$baseDatos->nombre'/>
                     <p></p>
 
                     <label for='textApellidos'>Apellidos *: </label>
-                    <input type='text' class='littleInput' id='textApellidos' name='textApellidos' placeholder='Introduce apellidos...' value= '$baseDatos->apellidos'/>
+                    <input type='text' id='textApellidos' name='textApellidos' placeholder='Introduce apellidos...' value= '$baseDatos->apellidos'/>
                     <p></p>
 
                     <label for='textEmail'>E-mail *: </label>
-                    <input type='text' class='littleInput' id='textEmail' name='textEmail' placeholder='Introduce e-mail...' value= '$baseDatos->email'/>
+                    <input type='text' id='textEmail' name='textEmail' placeholder='Introduce e-mail...' value= '$baseDatos->email'/>
                     <p></p>
 
                     <label for='textTelefono'>Teléfono *: </label>
-                    <input type='text' class='littleInput' id='textTelefono' name='textTelefono' placeholder='Introduce teléfono...' value= '$baseDatos->telefono'/>
+                    <input type='text' id='textTelefono' name='textTelefono' placeholder='Introduce teléfono...' value= '$baseDatos->telefono'/>
                     <p></p>
 
                     <label for='textEdad'>Edad *: </label>
-                    <input type='text' class='littleInput' id='textEdad' name='textEdad' placeholder='Introduce edad...' value= '$baseDatos->edad'/>
+                    <input type='text' id='textEdad' name='textEdad' placeholder='Introduce edad...' value= '$baseDatos->edad'/>
                     <p></p>
 
                     <label for='textSexo'>Sexo *: </label>
-                    <input type='text' class='littleInput' id='textSexo' name='textSexo' placeholder='Introduce sexo (Hombre=H Mujer=M)' value= '$baseDatos->sexo'/>
+                    <input type='text' id='textSexo' name='textSexo' placeholder='Introduce sexo (Hombre=H Mujer=M)' value= '$baseDatos->sexo'/>
                     <p></p>
 
                     <label for='textNivel'>Nivel informático *: </label>
-                    <input type='text' class='littleInput' id='textNivel' name='textNivel' placeholder='Introduce nivel ( 0 a 10)' value= '$baseDatos->nivel'/>
+                    <input type='text' id='textNivel' name='textNivel' placeholder='Introduce nivel ( 0 a 10)' value= '$baseDatos->nivel'/>
                     <p></p>
 
                     <label for='textTiempo'>Tiempo empleado *: </label>
-                    <input type='text' class='littleInput' id='textTiempo' name='textTiempo' placeholder='Introduce tiempo en segundos...' value= '$baseDatos->tiempo'/>
+                    <input type='text' id='textTiempo' name='textTiempo' placeholder='Introduce tiempo en segundos...' value= '$baseDatos->tiempo'/>
                     <p></p>
 
                     <label for='textTarea'>¿Tarea realizada correctamente? *: </label>
-                    <input type='text' class='littleInput' id='textTarea' name='textTarea' placeholder='Sí o no' value= '$baseDatos->correcto'/>
+                    <input type='text' class='pequeño' id='textTarea' name='textTarea' placeholder='Sí o no' value= '$baseDatos->correcto'/>
                     <p></p>
 
                     <label for='textComentarios'>Comentarios: </label>
-                    <input type='text' class='bigInput' id='textComentarios' name='textComentarios' placeholder='Introduce comentarios...' value= '$baseDatos->comentarios'/>
+                    <input type='text' id='textComentarios' name='textComentarios' placeholder='Introduce comentarios...' value= '$baseDatos->comentarios'/>
                     <p></p>
 
                     <label for='textPropuestas'>Propuestas: </label>
-                    <input type='text' class='bigInput' id='textPropuestas' name='textPropuestas' placeholder='Introduce propuestas...' value= '$baseDatos->propuestas'/>
+                    <input type='text' id='textPropuestas' name='textPropuestas' placeholder='Introduce propuestas...' value= '$baseDatos->propuestas'/>
                     <p></p>
 
                     <label for='textValoracion'>Valoración aplicación *: </label>
-                    <input type='text' class='littleInput' id='textValoracion' name='textValoracion' placeholder='Introduce valoración( 0 a 10 )' value= '$baseDatos->valoracion'/>
+                    <input type='text' id='textValoracion' name='textValoracion' placeholder='Introduce valoración( 0 a 10 )' value= '$baseDatos->valoracion'/>
                     <p></p>
                     <input type='submit' id='insertarDatos' name='btnInsertarDatos' value='Insertar' />
                     </section>
@@ -775,7 +777,7 @@
                     <section>
                     <h2>Buscar datos de tabla</h2>
                     <label for='textBuscarDNI'>Busqueda por DNI: </label>
-                    <input type='text' class='littleInput' id='textBuscarDNI' name='textBuscarDNI' placeholder='Introduce DNI...' value='$baseDatos->buscarDni'/>
+                    <input type='text' id='textBuscarDNI' name='textBuscarDNI' placeholder='Introduce DNI...' value='$baseDatos->buscarDni'/>
                     <input type='submit' id='buscarDatos' name='btnBuscarDatos' value='Buscar' />
                     </section>
 
@@ -783,55 +785,55 @@
                     <section>
                     <h2>Modificar datos de tabla</h2>
                     <label for='textModificarDNI'>DNI: </label>
-                    <input type='text' class='littleInput' id='textModificarDNI' name='textModificarDNI' placeholder='Inserta DNI...' value= '$baseDatos->dniM'/>
+                    <input type='text' id='textModificarDNI' name='textModificarDNI' placeholder='Inserta DNI...' value= '$baseDatos->dniM'/>
                     <p></p>
 
                     <label for='textModificarNombre'>Nombre: </label>
-                    <input type='text' class='littleInput' id='textModificarNombre' name='textModificarNombre' placeholder='Inserta nuevo nombre...' value= '$baseDatos->nombreM'/>
+                    <input type='text' id='textModificarNombre' name='textModificarNombre' placeholder='Inserta nuevo nombre...' value= '$baseDatos->nombreM'/>
                     <p></p>
 
                     <label for='textModificarApellidos'>Apellidos: </label>
-                    <input type='text' class='littleInput' id='textModificarApellidos' name='textModificarApellidos' placeholder='Inserta nuevos apellidos...' value= '$baseDatos->apellidosM'/>
+                    <input type='text' id='textModificarApellidos' name='textModificarApellidos' placeholder='Inserta nuevos apellidos...' value= '$baseDatos->apellidosM'/>
                     <p></p>
 
                     <label for='textModificarEmail'>E-mail: </label>
-                    <input type='text' class='littleInput' id='textModificarEmail' name='textModificarEmail' placeholder='Inserta nuevo e-mail...' value= '$baseDatos->emailM'/>
+                    <input type='text' id='textModificarEmail' name='textModificarEmail' placeholder='Inserta nuevo e-mail...' value= '$baseDatos->emailM'/>
                     <p></p>
 
                     <label for='textModificarTelefono'>Teléfono: </label>
-                    <input type='text' class='littleInput' id='textModificarTelefono' name='textModificarTelefono' placeholder='Inserta nuevo teléfono...' value= '$baseDatos->telefonoM'/>
+                    <input type='text' id='textModificarTelefono' name='textModificarTelefono' placeholder='Inserta nuevo teléfono...' value= '$baseDatos->telefonoM'/>
                     <p></p>
 
                     <label for='textModificarEdad'>Edad: </label>
-                    <input type='text' class='littleInput' id='textModificarEdad' name='textModificarEdad' placeholder='Inserta nueva edad...' value= '$baseDatos->edadM'/>
+                    <input type='text' id='textModificarEdad' name='textModificarEdad' placeholder='Inserta nueva edad...' value= '$baseDatos->edadM'/>
                     <p></p>
 
                     <label for='textModificarSexo'>Sexo: </label>
-                    <input type='text' class='littleInput' id='textModificarSexo' name='textModificarSexo' placeholder='Inserta (Hombre=H || Mujer=M)' value= '$baseDatos->sexoM'/>
+                    <input type='text'  id='textModificarSexo' name='textModificarSexo' placeholder='Inserta (Hombre=H || Mujer=M)' value= '$baseDatos->sexoM'/>
                     <p></p>
 
                     <label for='textModificarNivel'>Nivel informático: </label>
-                    <input type='text' class='littleInput' id='textModificarNivel' name='textModificarNivel' placeholder='Inserta (0 a 10)' value= '$baseDatos->nivelM'/>
+                    <input type='text' id='textModificarNivel' name='textModificarNivel' placeholder='Inserta (0 a 10)' value= '$baseDatos->nivelM'/>
                     <p></p>
 
                     <label for='textModificarTiempo'>Tiempo empleado: </label>
-                    <input type='text' class='littleInput' id='textModificarTiempo' name='textModificarTiempo' placeholder='Inserta nuevo tiempo en segundos...' value= '$baseDatos->tiempoM'/>
+                    <input type='text' id='textModificarTiempo' name='textModificarTiempo' placeholder='Inserta nuevo tiempo en segundos...' value= '$baseDatos->tiempoM'/>
                     <p></p>
 
                     <label for='textModificarTarea'>¿La tarea se ha realizado correctamente?: </label>
-                    <input type='text' class='littleInput' id='textModificarTarea' name='textModificarTarea' placeholder='Inserta sí o no...' value= '$baseDatos->correctoM'/>
+                    <input type='text' class='pequeño' id='textModificarTarea' name='textModificarTarea' placeholder='Inserta sí o no...' value= '$baseDatos->correctoM'/>
                     <p></p>
 
                     <label for='textModificarComentarios'>Comentarios: </label>
-                    <input type='text' class='bigInput' id='textModificarComentarios' name='textModificarComentarios' placeholder='Inserta nuevos comentarios...' value= '$baseDatos->comentariosM'/>
+                    <input type='text' id='textModificarComentarios' name='textModificarComentarios' placeholder='Inserta nuevos comentarios...' value= '$baseDatos->comentariosM'/>
                     <p></p>
 
                     <label for='textModificarPropuestas'>Propuestas: </label>
-                    <input type='text' class='bigInput' id='textModificarPropuestas' name='textModificarPropuestas' placeholder='Inserta nuevas propuestas...' value= '$baseDatos->propuestasM'/>
+                    <input type='text'  id='textModificarPropuestas' name='textModificarPropuestas' placeholder='Inserta nuevas propuestas...' value= '$baseDatos->propuestasM'/>
                     <p></p>
 
                     <label for='textModificarValoracion'>Valoración aplicación: </label>
-                    <input type='text' class='littleInput' id='textModificarValoracion' name='textModificarValoracion' placeholder='Inserta (0 a 10)...' value= '$baseDatos->valoracionM'/>
+                    <input type='text' id='textModificarValoracion' name='textModificarValoracion' placeholder='Inserta (0 a 10)...' value= '$baseDatos->valoracionM'/>
                     <p></p>
 
                     <input type='submit' id='modificarDatos' name='btnModificarDatos' value='Modificar' />
@@ -842,24 +844,27 @@
                     <section>
                     <h2>Eliminar datos de tabla</h2>
                     <label for='textDNIEliminar'>DNI: </label>
-                    <input type='text' class='littleInput' id='textDNIEliminar' name='textDNIEliminar' placeholder='Introduce DNI...' value='$baseDatos->dniEliminar'/>
+                    <input type='text' id='textDNIEliminar' name='textDNIEliminar' placeholder='Introduce DNI...' value='$baseDatos->dniEliminar'/>
                     <input type='submit' id='eliminarDatos' name='btnEliminar' value='Eliminar' />
                     </section>
 
                     <a id='ancla-7'></a>
                     <section>
+                    <p></p>
                     <h2>Informe</h2>
                     <input type='submit' id='generarInforme' name='btnGenerarInforme' value='Generar' />
                     </section>
 
                     <a id='ancla-8'></a>
                     <section>
+                    <p></p>
                     <h2>Cargar datos desde archivo en la tabla</h2>
                     <input type='submit' id='cargarDatos' name='btnCargarDatos' value='Cargar' />
                     </section>
                     
                     <a id='ancla-9'></a>
                     <section>
+                    <p></p>
                     <h2>Exportar datos de tabla a archivo</h2>
                     <input type='submit' id='exportarDatos' name='btnExportarDatos' value='Exportar' />
                     </section>
