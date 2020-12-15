@@ -188,7 +188,7 @@
 
             echo "
             <form action='#' method='post' name='money'>
-                <label>Cantidad</label>
+                <label for='cantidad'>Cantidad</label>
                 <input type='text' id='cantidad' title='Pantalla' value='$money->cantidad' disabled/>
                 <img id='img1' src='img1.png' alt='imagen euro'/>
                
