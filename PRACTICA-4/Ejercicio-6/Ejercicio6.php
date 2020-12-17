@@ -284,6 +284,10 @@
             public function modificarTabla() {
                 if($this->creada ==='1'){
                     if($this->creada2 =="1"){
+                        if ($_POST['textModificarDNI']=="" || $_POST['textModificarNombre']=="" || $_POST['textModificarApellidos']=="" || $_POST['textModificarEmail']=="" || $_POST['textModificarTelefono']=="" || $_POST['textModificarEdad']=="" || $_POST['textModificarSexo']=="" || $_POST['textModificarNivel']=="" || $_POST['textModificarTiempo']=="" || $_POST['textModificarTarea']=="" || $_POST['textModificarValoracion']=="") {
+                            echo "<p>Algun campo obligatorio (*) está sin rellenar</p>";
+                            return;
+                        }
                         if(strcasecmp($_POST['textModificarSexo'],"m")!=0 && strcasecmp($_POST['textModificarSexo'],"h")!=0 && strcasecmp($_POST['textModificarSexo'],"M")!=0 && strcasecmp($_POST['textModificarSexo'],"H")!=0){
                             echo "<p> El sexo introducido tiene que ser H o M. Por favor vuelva a introducir los datos </p>";
                             return;
