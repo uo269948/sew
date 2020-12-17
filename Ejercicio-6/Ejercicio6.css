@@ -1,0 +1,189 @@
+/*(0,0,1) */
+ html {
+    
+    box-sizing: border-box;
+}
+/*(0,0,1) */
+body {
+    position: relative;
+    padding-bottom: 10em;
+    min-height: 100%;
+    max-height: 100%;
+    color: white;
+    background: black;
+    text-align: center;
+   
+}
+
+/*(0,0,1) */
+h1 {
+    font-size: 34px;
+   
+    
+    background-color: navy;
+    color: white;
+    text-align: center;
+}
+h2{
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+h3{
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+h4{
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+h5{
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+h6{
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+h7{
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+h8{
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+h9{
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+h10{
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+h11{
+    text-transform: uppercase;
+    padding-top: 1em;
+}
+
+/*(0,0,1) */
+footer {
+    padding: 1em 1em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: right;
+    color: white;
+    
+    background-color: navy;
+}
+
+/*(0,0,2) */
+footer p {
+    padding: 0;
+    margin: 0;
+}
+/*(0,1,0) */
+[for="pantalla"] { 
+    display: none;
+    color: white;
+    
+    background-color: black;
+}
+
+/*(0,0,0) */
+*,
+/*(0,0,1) */
+*:before,
+/*(0,0,1) */
+*:after {
+    box-sizing: inherit;
+}
+
+/*(0,1,1) */
+  input[type=text] {
+      width: 50%;
+      padding: 5px 10px;
+      font-size: 16px;
+      margin: 1px 0;
+      border: 1px solid silver;
+      border-radius: 1px;
+      text-align: left;
+      color: black;
+      background: white;
+  }
+   
+  /*(0,1,1) */
+  input[type=button], input[type=submit], input[type=reset] {
+      
+      border: none;
+      
+      padding: 10px 32px;
+      font-size: 16px;
+      min-width: 16%;
+      text-decoration: none;
+      margin: 2px 2px;
+      cursor: pointer;
+      background-color: navy;
+      color:white;
+  }
+  /*(0,2,1) */
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: green;
+    color:white;
+  }
+  form{
+      text-align: center;
+  }
+
+  /*(0,1,0) */
+.operation {
+    color: black;
+    background-color: lightskyblue;
+    
+}
+ /*(0,1,0) */
+.resultado {
+    color: black;
+    background-color: lightgrey;
+}
+
+ /*(0,1,0) */
+.number {
+    color: black;
+    background-color:  lightgray;
+
+}
+.pequeño{
+	width: 30%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: navy;
+  color: white;
+}
+
+.topnav a {
+  float: left;
+  background-color: inherit;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+section{
+    background-color: lightgrey;
+    color: black;
+}
